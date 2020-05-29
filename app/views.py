@@ -17,14 +17,13 @@ from app.engine import LSTM_Model
 from app.mapcsv_to_df import  map_to_df
 from app.ep_model import  Ep_model
 from app.hospitals_resource_fetch import hospitals_resource_fetch
-
 # provide login manager with load_user callback
 epm=Ep_model()
 epm.data_fetch()
-model_month=LSTM_Model(df=db_to_df(dburl='postgresql://postgres:postgres@database-1.cpka5l6nyg2j.ap-south-1.rds.amazonaws.com:5432/mcare',tablename='medicineinventorymonthly',file='data/CSV/monthly.csv'),model_path="data/Models/monthly")
-#model_month.train()
+model_month=LSTM_Model(df=db_to_df(csv=True,dburl='postgresql://postgres:postgres@database-1.cpka5l6nyg2j.ap-south-1.rds.amazonaws.com:5432/mcare',tablename='medicineinventorymonthly',file='data/CSV/monthly.csv'),model_path="data/Models/monthly")
+model_month.train()
 labels,data=model_month.predict()
-model_week= LSTM_Model(df=db_to_df(dburl='postgresql://postgres:postgres@database-1.cpka5l6nyg2j.ap-south-1.rds.amazonaws.com:5432/mcare',file='data/CSV/weekly.csv',tablename="medicineinventoryweekly"),model_path="data/Models/weekly")
+model_week= LSTM_Model(df=db_to_df(csv=True,dburl='postgresql://postgres:postgres@database-1.cpka5l6nyg2j.ap-south-1.rds.amazonaws.com:5432/mcare',file='data/CSV/weekly.csv',tablename="medicineinventoryweekly"),model_path="data/Models/weekly")
 #model_week.train()
 labels_week,data_week=model_week.predict_week()
 
@@ -165,7 +164,7 @@ def mapapi():
 @app.route('/pastinvapi',methods=['POST'])
 def invapi():
     if request.method == 'POST':
-            df= db_to_df(csv=True	)
+            df= db_to_df(csv=True,dburl='postgresql://postgres:postgres@database-1.cpka5l6nyg2j.ap-south-1.rds.amazonaws.com:5432/mcare',tablename='medicineinventorymonthly',file='data/CSV/monthly.csv')
             labels=list(df['datum'])[-5:]
             print(labels)
             #last 5month
@@ -192,7 +191,7 @@ def predictinvapi():
 @app.route('/pastweeklyinvapi',methods=['POST'])
 def invweeklyapi():
     if request.method == 'POST':
-            df= db_to_df(csv=True,file="data/CSV/weekly.csv",tablename="medicineinventoryweekly")
+            df=db_to_df(csv=True,file='data/CSV/weekly.csv',tablename="medicineinventoryweekly")
             labels=list(df['datum'])[-5:]
             print(labels)
             labels=[str(datetime.datetime.strptime(i,'%m/%d/%Y').strftime('%Y-%m-%d')) for i in labels]
@@ -222,7 +221,7 @@ def currenttableapi():
     if request.method == 'POST':
             
 
-            df= db_to_df()
+            df= db_to_df(csv=True)
 
             percentages=[]
             current_month = [list(i.values())[0][0] for i in data ]
