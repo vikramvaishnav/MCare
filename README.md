@@ -1,5 +1,10 @@
 # MedoCare
 ### 2020-05-13
+
+### To Run Project
+1. pip  install -r requirement.txt
+2. flask run
+
 ## Database:
 1. Database Connectivity done
 2. created APIs for converting and storing csv data to database
