@@ -17,6 +17,7 @@ from app.engine import LSTM_Model
 from app.mapcsv_to_df import  map_to_df
 from app.ep_model import  Ep_model
 from app.hospitals_resource_fetch import hospitals_resource_fetch
+
 # provide login manager with load_user callback
 epm=Ep_model()
 epm.data_fetch()
@@ -164,7 +165,7 @@ def mapapi():
 @app.route('/pastinvapi',methods=['POST'])
 def invapi():
     if request.method == 'POST':
-            df= db_to_df()
+            df= db_to_df(csv=True)
             labels=list(df['datum'])[-5:]
             print(labels)
             #last 5month
@@ -191,7 +192,7 @@ def predictinvapi():
 @app.route('/pastweeklyinvapi',methods=['POST'])
 def invweeklyapi():
     if request.method == 'POST':
-            df= db_to_df(tablename="medicineinventoryweekly")
+            df= db_to_df(csv=True,file="data/CSV/weekly.csv",tablename="medicineinventoryweekly")
             labels=list(df['datum'])[-5:]
             print(labels)
             labels=[str(datetime.datetime.strptime(i,'%m/%d/%Y').strftime('%Y-%m-%d')) for i in labels]
