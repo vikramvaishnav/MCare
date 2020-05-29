@@ -165,7 +165,7 @@ def mapapi():
 @app.route('/pastinvapi',methods=['POST'])
 def invapi():
     if request.method == 'POST':
-            df= db_to_df(csv=True)
+            df= db_to_df(csv=True	)
             labels=list(df['datum'])[-5:]
             print(labels)
             #last 5month
