@@ -124,7 +124,7 @@ decrease_percent=['text-success mr-2','fas fa-arrow-down']
     percentage['nurses']=100
     if ((crp+crinc)>hospital['emergency'])
   {
-    percentage['emergency']=parseInt((hospital['beds'])*100/(crp + crinc))
+    percentage['emergency']=parseInt((hospital['emergency'])*100/(crp + crinc))
   }
   else {
         percentage['emergency']=100
