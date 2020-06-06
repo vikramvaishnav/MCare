@@ -7,11 +7,11 @@
             L_DISABLE_3D = false;
         </script>
     
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_104dd9bd5330412ba8eb128728be9486 {
+                #map_487535b85f224a9cbe401d8e0940b61c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_104dd9bd5330412ba8eb128728be9486" ></div>
+            <div class="folium-map" id="map_487535b85f224a9cbe401d8e0940b61c" ></div>
         
 </body>
 <script>    
     
-            var map_104dd9bd5330412ba8eb128728be9486 = L.map(
-                "map_104dd9bd5330412ba8eb128728be9486",
+            var map_487535b85f224a9cbe401d8e0940b61c = L.map(
+                "map_487535b85f224a9cbe401d8e0940b61c",
                 {
                     center: [18.5204, 73.8567],
                     crs: L.CRS.EPSG3857,
@@ -55,2287 +55,2496 @@
 
         
     
-            var tile_layer_9f4f4c481e244fef84c4a4a8f4995cef = L.tileLayer(
+            var tile_layer_7e265e4420ab49deaeb889c884b9cd26 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-            var marker_12b2a33563c74aefa0815c106446d35b = L.marker(
+            var circle_marker_46f63a5139024721a8893cbaf831d0ac = L.circleMarker(
+                [18.513837, 73.853327],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_5501d572cd474ec984295eee1e47a9de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_893786bcf1eb4d9f9cc93c3f608862e0 = $(`<div id="html_893786bcf1eb4d9f9cc93c3f608862e0" style="width: 100.0%; height: 100.0%;"><b>Kasba-Vishrambaug wada</b></div>`)[0];
+            popup_5501d572cd474ec984295eee1e47a9de.setContent(html_893786bcf1eb4d9f9cc93c3f608862e0);
+        
+
+        circle_marker_46f63a5139024721a8893cbaf831d0ac.bindPopup(popup_5501d572cd474ec984295eee1e47a9de)
+        ;
+
+        
+    
+    
+            var circle_marker_e8f7d78d73b940e4acb461505a72de6a = L.circleMarker(
+                [18.515244, 73.866443],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_c9e21a68e28b4c03bbfeba0eae8393d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31ab946db6d64e03801841e7d76b722a = $(`<div id="html_31ab946db6d64e03801841e7d76b722a" style="width: 100.0%; height: 100.0%;"><b>Bhavani peth ward office</b></div>`)[0];
+            popup_c9e21a68e28b4c03bbfeba0eae8393d0.setContent(html_31ab946db6d64e03801841e7d76b722a);
+        
+
+        circle_marker_e8f7d78d73b940e4acb461505a72de6a.bindPopup(popup_c9e21a68e28b4c03bbfeba0eae8393d0)
+        ;
+
+        
+    
+    
+            var circle_marker_084af0f5618744dcb88874da8de9b0fa = L.circleMarker(
+                [18.526261, 73.876051],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_9080960e8f364049bdba2f3bb5d6bc2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdba67754a0146d094bf9a121d272b98 = $(`<div id="html_bdba67754a0146d094bf9a121d272b98" style="width: 100.0%; height: 100.0%;"><b>Pune station</b></div>`)[0];
+            popup_9080960e8f364049bdba2f3bb5d6bc2c.setContent(html_bdba67754a0146d094bf9a121d272b98);
+        
+
+        circle_marker_084af0f5618744dcb88874da8de9b0fa.bindPopup(popup_9080960e8f364049bdba2f3bb5d6bc2c)
+        ;
+
+        
+    
+    
+            var circle_marker_63c28d31b4994a0681f2bd52ff968529 = L.circleMarker(
+                [18.464631, 73.851375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_a70ff45b51b14d509d1acbdbae0b4cad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b91a19dfaef344f1aaad46485ebbf82e = $(`<div id="html_b91a19dfaef344f1aaad46485ebbf82e" style="width: 100.0%; height: 100.0%;"><b>Dhankawadi</b></div>`)[0];
+            popup_a70ff45b51b14d509d1acbdbae0b4cad.setContent(html_b91a19dfaef344f1aaad46485ebbf82e);
+        
+
+        circle_marker_63c28d31b4994a0681f2bd52ff968529.bindPopup(popup_a70ff45b51b14d509d1acbdbae0b4cad)
+        ;
+
+        
+    
+    
+            var circle_marker_88e08bf67ae140a28faa8054e37a3f31 = L.circleMarker(
+                [18.471557, 73.867064],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_e531927f35264377988dafd5f8685058 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_478228a8c0cb4ccf926fff6f2d4738be = $(`<div id="html_478228a8c0cb4ccf926fff6f2d4738be" style="width: 100.0%; height: 100.0%;"><b>Bibwewadi</b></div>`)[0];
+            popup_e531927f35264377988dafd5f8685058.setContent(html_478228a8c0cb4ccf926fff6f2d4738be);
+        
+
+        circle_marker_88e08bf67ae140a28faa8054e37a3f31.bindPopup(popup_e531927f35264377988dafd5f8685058)
+        ;
+
+        
+    
+    
+            var circle_marker_bfb64dfe455f48949fe5ea0ebaaf72aa = L.circleMarker(
+                [18.499114, 73.909837],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_dd8edf2976f34ff48e9708b390f165b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a96ad4f2ed64883a1d5f9d45540b69b = $(`<div id="html_0a96ad4f2ed64883a1d5f9d45540b69b" style="width: 100.0%; height: 100.0%;"><b>Wanowrie-Hadapsar</b></div>`)[0];
+            popup_dd8edf2976f34ff48e9708b390f165b5.setContent(html_0a96ad4f2ed64883a1d5f9d45540b69b);
+        
+
+        circle_marker_bfb64dfe455f48949fe5ea0ebaaf72aa.bindPopup(popup_dd8edf2976f34ff48e9708b390f165b5)
+        ;
+
+        
+    
+    
+            var circle_marker_4eaa55afb690437a93acac504cee6b49 = L.circleMarker(
+                [18.528794, 73.843243],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_a328ae00d05741f78d941e826781bcdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5ccfa45fb374ffaa19e1b03bb818424 = $(`<div id="html_a5ccfa45fb374ffaa19e1b03bb818424" style="width: 100.0%; height: 100.0%;"><b>Shivajinagar</b></div>`)[0];
+            popup_a328ae00d05741f78d941e826781bcdb.setContent(html_a5ccfa45fb374ffaa19e1b03bb818424);
+        
+
+        circle_marker_4eaa55afb690437a93acac504cee6b49.bindPopup(popup_a328ae00d05741f78d941e826781bcdb)
+        ;
+
+        
+    
+    
+            var circle_marker_3f8a585412cd4a69bd1d413e2a51b757 = L.circleMarker(
+                [18.561314, 73.919346],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_1ca60c32269e4f5488b7300a7b5f137a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74e60fc611704521bdbd88db5df37bd6 = $(`<div id="html_74e60fc611704521bdbd88db5df37bd6" style="width: 100.0%; height: 100.0%;"><b>Ahmednagar road-Wadgaonsheri</b></div>`)[0];
+            popup_1ca60c32269e4f5488b7300a7b5f137a.setContent(html_74e60fc611704521bdbd88db5df37bd6);
+        
+
+        circle_marker_3f8a585412cd4a69bd1d413e2a51b757.bindPopup(popup_1ca60c32269e4f5488b7300a7b5f137a)
+        ;
+
+        
+    
+    
+            var circle_marker_d146614783684d35bd7842c82f54cf5c = L.circleMarker(
+                [18.530096, 73.927467],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_c11310034c404459929a6bd3910bf91f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c26e1081db84e3d9c242227c1321a17 = $(`<div id="html_1c26e1081db84e3d9c242227c1321a17" style="width: 100.0%; height: 100.0%;"><b>Hadapsar Mundhwa</b></div>`)[0];
+            popup_c11310034c404459929a6bd3910bf91f.setContent(html_1c26e1081db84e3d9c242227c1321a17);
+        
+
+        circle_marker_d146614783684d35bd7842c82f54cf5c.bindPopup(popup_c11310034c404459929a6bd3910bf91f)
+        ;
+
+        
+    
+    
+            var circle_marker_9de8c387070c4873a6499513c4f3df28 = L.circleMarker(
+                [18.506078, 73.80732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_a04fe758d72a495fadda59759c973e93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ef6ca39fd794a01b64694a702252a68 = $(`<div id="html_3ef6ca39fd794a01b64694a702252a68" style="width: 100.0%; height: 100.0%;"><b>Kothrud</b></div>`)[0];
+            popup_a04fe758d72a495fadda59759c973e93.setContent(html_3ef6ca39fd794a01b64694a702252a68);
+        
+
+        circle_marker_9de8c387070c4873a6499513c4f3df28.bindPopup(popup_a04fe758d72a495fadda59759c973e93)
+        ;
+
+        
+    
+    
+            var circle_marker_1d7bbd496895442e82dc236394901c70 = L.circleMarker(
+                [18.563773, 73.810513],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45, "stroke": true, "weight": 3}
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
+        
+    
+        var popup_6dc4c235dc23424e8dc43b13b70e8831 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8169b87a43e54057b9e1322e047ff86f = $(`<div id="html_8169b87a43e54057b9e1322e047ff86f" style="width: 100.0%; height: 100.0%;"><b>Aundh-Baner</b></div>`)[0];
+            popup_6dc4c235dc23424e8dc43b13b70e8831.setContent(html_8169b87a43e54057b9e1322e047ff86f);
+        
+
+        circle_marker_1d7bbd496895442e82dc236394901c70.bindPopup(popup_6dc4c235dc23424e8dc43b13b70e8831)
+        ;
+
+        
+    
+    
+            var marker_96fc2656d69349edbc72241841468197 = L.marker(
                 [18.641271, 73.77409300000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_53754229b2c24cb9b68443602c08da40 = L.popup({"maxWidth": "100%"});
+        var popup_d4092dafb285482596028c96c3a1f3e0 = L.popup({"maxWidth": "100%"});
 
         
-            var html_26d6a4eb87554496ba52dfc3a9f6b2a3 = $(`<div id="html_26d6a4eb87554496ba52dfc3a9f6b2a3" style="width: 100.0%; height: 100.0%;"><i>PCMC-Bijlinagar Dispensary</i></div>`)[0];
-            popup_53754229b2c24cb9b68443602c08da40.setContent(html_26d6a4eb87554496ba52dfc3a9f6b2a3);
+            var html_4724ad961dca40d087d53f42b9b1c906 = $(`<div id="html_4724ad961dca40d087d53f42b9b1c906" style="width: 100.0%; height: 100.0%;"><i>PCMC-Bijlinagar Dispensary</i></div>`)[0];
+            popup_d4092dafb285482596028c96c3a1f3e0.setContent(html_4724ad961dca40d087d53f42b9b1c906);
         
 
-        marker_12b2a33563c74aefa0815c106446d35b.bindPopup(popup_53754229b2c24cb9b68443602c08da40)
+        marker_96fc2656d69349edbc72241841468197.bindPopup(popup_d4092dafb285482596028c96c3a1f3e0)
         ;
 
         
     
     
-            var marker_7cd97367e8c84f0bb779618d1f539d91 = L.marker(
+            var marker_8478e7b9ca73463fa6e412169623ecc0 = L.marker(
                 [18.672742, 73.730384],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_d5f2b6a82c2040fca6cbf8861615a1f9 = L.popup({"maxWidth": "100%"});
+        var popup_45b39ff22a0543f1b46b349553ebada7 = L.popup({"maxWidth": "100%"});
 
         
-            var html_636d2f0b866a42cc84cef9d8575d2311 = $(`<div id="html_636d2f0b866a42cc84cef9d8575d2311" style="width: 100.0%; height: 100.0%;"><i>PCMC-Kiwle Dispensary</i></div>`)[0];
-            popup_d5f2b6a82c2040fca6cbf8861615a1f9.setContent(html_636d2f0b866a42cc84cef9d8575d2311);
+            var html_ab765af12e6b4c178fb075e7d8d0f739 = $(`<div id="html_ab765af12e6b4c178fb075e7d8d0f739" style="width: 100.0%; height: 100.0%;"><i>PCMC-Kiwle Dispensary</i></div>`)[0];
+            popup_45b39ff22a0543f1b46b349553ebada7.setContent(html_ab765af12e6b4c178fb075e7d8d0f739);
         
 
-        marker_7cd97367e8c84f0bb779618d1f539d91.bindPopup(popup_d5f2b6a82c2040fca6cbf8861615a1f9)
+        marker_8478e7b9ca73463fa6e412169623ecc0.bindPopup(popup_45b39ff22a0543f1b46b349553ebada7)
         ;
 
         
     
     
-            var marker_da3a72d959bf4df8aa03b46f058a5787 = L.marker(
+            var marker_b33ad32dddf3409782b7bee59bcf6a84 = L.marker(
                 [18.669812, 73.794382],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_a6ec88ec41fc43f4af582eb67949eb60 = L.popup({"maxWidth": "100%"});
+        var popup_08200e7d1fa14f928dc5ff6595efea77 = L.popup({"maxWidth": "100%"});
 
         
-            var html_bf7e1258b50140ada8bed7ed6ec7cbd1 = $(`<div id="html_bf7e1258b50140ada8bed7ed6ec7cbd1" style="width: 100.0%; height: 100.0%;"><i>PCMC-Mhetrewasti Dispensary</i></div>`)[0];
-            popup_a6ec88ec41fc43f4af582eb67949eb60.setContent(html_bf7e1258b50140ada8bed7ed6ec7cbd1);
+            var html_fac6265913414a06b148f6a9dd9a572f = $(`<div id="html_fac6265913414a06b148f6a9dd9a572f" style="width: 100.0%; height: 100.0%;"><i>PCMC-Mhetrewasti Dispensary</i></div>`)[0];
+            popup_08200e7d1fa14f928dc5ff6595efea77.setContent(html_fac6265913414a06b148f6a9dd9a572f);
         
 
-        marker_da3a72d959bf4df8aa03b46f058a5787.bindPopup(popup_a6ec88ec41fc43f4af582eb67949eb60)
+        marker_b33ad32dddf3409782b7bee59bcf6a84.bindPopup(popup_08200e7d1fa14f928dc5ff6595efea77)
         ;
 
         
     
     
-            var marker_bfceae7088604e12b74e4521ece34ffd = L.marker(
+            var marker_074dbff072934f6486c45102676ff8a4 = L.marker(
                 [18.637834, 73.747743],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_9139a6db5f884e33aa0040426394bed3 = L.popup({"maxWidth": "100%"});
+        var popup_b7899b91f57b4a23839a9b31834b4d81 = L.popup({"maxWidth": "100%"});
 
         
-            var html_c07a38f9db98401bb685804493008072 = $(`<div id="html_c07a38f9db98401bb685804493008072" style="width: 100.0%; height: 100.0%;"><i>PCMC-Punawle Dispensary</i></div>`)[0];
-            popup_9139a6db5f884e33aa0040426394bed3.setContent(html_c07a38f9db98401bb685804493008072);
+            var html_5707c6eaaa8b44a5be34c347c7a49f2f = $(`<div id="html_5707c6eaaa8b44a5be34c347c7a49f2f" style="width: 100.0%; height: 100.0%;"><i>PCMC-Punawle Dispensary</i></div>`)[0];
+            popup_b7899b91f57b4a23839a9b31834b4d81.setContent(html_5707c6eaaa8b44a5be34c347c7a49f2f);
         
 
-        marker_bfceae7088604e12b74e4521ece34ffd.bindPopup(popup_9139a6db5f884e33aa0040426394bed3)
+        marker_074dbff072934f6486c45102676ff8a4.bindPopup(popup_b7899b91f57b4a23839a9b31834b4d81)
         ;
 
         
     
     
-            var marker_914c13e941384430a19633e761f30799 = L.marker(
+            var marker_d0e7a1108ef14094b6a436fd5b0bd377 = L.marker(
                 [18.626855, 73.797739],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_6e0284cbffcd4988bff3d56a42fba817 = L.popup({"maxWidth": "100%"});
+        var popup_304a128ec7eb4680aa9a974b4c3e2973 = L.popup({"maxWidth": "100%"});
 
         
-            var html_c14c646f34b84070add1370bbea2ae2b = $(`<div id="html_c14c646f34b84070add1370bbea2ae2b" style="width: 100.0%; height: 100.0%;"><i>PCMC-Bhatnagar Dispensary</i></div>`)[0];
-            popup_6e0284cbffcd4988bff3d56a42fba817.setContent(html_c14c646f34b84070add1370bbea2ae2b);
+            var html_113e483f8adc44ee9a7dbd3a294b7e68 = $(`<div id="html_113e483f8adc44ee9a7dbd3a294b7e68" style="width: 100.0%; height: 100.0%;"><i>PCMC-Bhatnagar Dispensary</i></div>`)[0];
+            popup_304a128ec7eb4680aa9a974b4c3e2973.setContent(html_113e483f8adc44ee9a7dbd3a294b7e68);
         
 
-        marker_914c13e941384430a19633e761f30799.bindPopup(popup_6e0284cbffcd4988bff3d56a42fba817)
+        marker_d0e7a1108ef14094b6a436fd5b0bd377.bindPopup(popup_304a128ec7eb4680aa9a974b4c3e2973)
         ;
 
         
     
     
-            var marker_dba8a578db76488ba6c69cad80f2634a = L.marker(
+            var marker_721f3ff5057b4cefb73aecbcc43a636c = L.marker(
                 [18.583776, 73.85388499999998],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_049aa3a4494a4f87b0c99fa26ed0ffcd = L.popup({"maxWidth": "100%"});
+        var popup_5ac1a65c131549ec8de812edb8601f60 = L.popup({"maxWidth": "100%"});
 
         
-            var html_85b539a6baa1472bb8791daa2fc1ee78 = $(`<div id="html_85b539a6baa1472bb8791daa2fc1ee78" style="width: 100.0%; height: 100.0%;"><i>PCMC-Bopkhel Dispensary</i></div>`)[0];
-            popup_049aa3a4494a4f87b0c99fa26ed0ffcd.setContent(html_85b539a6baa1472bb8791daa2fc1ee78);
+            var html_f0e4817b7ca94e3ba2c02a40694c4ecd = $(`<div id="html_f0e4817b7ca94e3ba2c02a40694c4ecd" style="width: 100.0%; height: 100.0%;"><i>PCMC-Bopkhel Dispensary</i></div>`)[0];
+            popup_5ac1a65c131549ec8de812edb8601f60.setContent(html_f0e4817b7ca94e3ba2c02a40694c4ecd);
         
 
-        marker_dba8a578db76488ba6c69cad80f2634a.bindPopup(popup_049aa3a4494a4f87b0c99fa26ed0ffcd)
+        marker_721f3ff5057b4cefb73aecbcc43a636c.bindPopup(popup_5ac1a65c131549ec8de812edb8601f60)
         ;
 
         
     
     
-            var marker_6caec7584f5f4b04a89dddcae3c1bb05 = L.marker(
+            var marker_28b960265ab74f15bcc74e9e51c621fa = L.marker(
                 [18.616048000000006, 73.787595],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_e2bac4f169a14dcb93edbe7969953870 = L.popup({"maxWidth": "100%"});
+        var popup_536cd6341241400faaa9759049d66827 = L.popup({"maxWidth": "100%"});
 
         
-            var html_76a54a7dcdf74628885349f4334e3af8 = $(`<div id="html_76a54a7dcdf74628885349f4334e3af8" style="width: 100.0%; height: 100.0%;"><i>PCMC-Kalewadi Dispensary</i></div>`)[0];
-            popup_e2bac4f169a14dcb93edbe7969953870.setContent(html_76a54a7dcdf74628885349f4334e3af8);
+            var html_b68901e452694cc1be39d1d058a01462 = $(`<div id="html_b68901e452694cc1be39d1d058a01462" style="width: 100.0%; height: 100.0%;"><i>PCMC-Kalewadi Dispensary</i></div>`)[0];
+            popup_536cd6341241400faaa9759049d66827.setContent(html_b68901e452694cc1be39d1d058a01462);
         
 
-        marker_6caec7584f5f4b04a89dddcae3c1bb05.bindPopup(popup_e2bac4f169a14dcb93edbe7969953870)
+        marker_28b960265ab74f15bcc74e9e51c621fa.bindPopup(popup_536cd6341241400faaa9759049d66827)
         ;
 
         
     
     
-            var marker_628c9d98199e46f1aec048e9a27ea5bd = L.marker(
+            var marker_3302e448b794400990668c7d3c93fa57 = L.marker(
                 [18.671983, 73.772796],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_d7cd990bdd6643be934eb892947b6e70 = L.popup({"maxWidth": "100%"});
+        var popup_c1e545315b734b8e81fc20a882812b14 = L.popup({"maxWidth": "100%"});
 
         
-            var html_b49581f37df448e298c1fbe1e0edac32 = $(`<div id="html_b49581f37df448e298c1fbe1e0edac32" style="width: 100.0%; height: 100.0%;"><i>PCMC-Rupeenagar Dispensary</i></div>`)[0];
-            popup_d7cd990bdd6643be934eb892947b6e70.setContent(html_b49581f37df448e298c1fbe1e0edac32);
+            var html_274b78c4054a4fe1b2a5e91ca9a519b6 = $(`<div id="html_274b78c4054a4fe1b2a5e91ca9a519b6" style="width: 100.0%; height: 100.0%;"><i>PCMC-Rupeenagar Dispensary</i></div>`)[0];
+            popup_c1e545315b734b8e81fc20a882812b14.setContent(html_274b78c4054a4fe1b2a5e91ca9a519b6);
         
 
-        marker_628c9d98199e46f1aec048e9a27ea5bd.bindPopup(popup_d7cd990bdd6643be934eb892947b6e70)
+        marker_3302e448b794400990668c7d3c93fa57.bindPopup(popup_c1e545315b734b8e81fc20a882812b14)
         ;
 
         
     
     
-            var marker_4975ef80b0194ed5b1b7552addf91b07 = L.marker(
+            var marker_2e9d6ed1938e4182b219fb0fe9d7deb8 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_2149c24434ff4005a2e0592739a9e955 = L.popup({"maxWidth": "100%"});
+        var popup_8e60efc8e1de446c90d801e8a4da324e = L.popup({"maxWidth": "100%"});
 
         
-            var html_fd7b5c36a172429d8c7a487097d8ce27 = $(`<div id="html_fd7b5c36a172429d8c7a487097d8ce27" style="width: 100.0%; height: 100.0%;"><i>PCMC Thergaon</i></div>`)[0];
-            popup_2149c24434ff4005a2e0592739a9e955.setContent(html_fd7b5c36a172429d8c7a487097d8ce27);
+            var html_94c85bee1ac5437fab649a098cd471f7 = $(`<div id="html_94c85bee1ac5437fab649a098cd471f7" style="width: 100.0%; height: 100.0%;"><i>PCMC Thergaon</i></div>`)[0];
+            popup_8e60efc8e1de446c90d801e8a4da324e.setContent(html_94c85bee1ac5437fab649a098cd471f7);
         
 
-        marker_4975ef80b0194ed5b1b7552addf91b07.bindPopup(popup_2149c24434ff4005a2e0592739a9e955)
+        marker_2e9d6ed1938e4182b219fb0fe9d7deb8.bindPopup(popup_8e60efc8e1de446c90d801e8a4da324e)
         ;
 
         
     
     
-            var marker_1397e3ce36b4425287497e4f0ad716b0 = L.marker(
+            var marker_41c532c2fc1f4a00a6ebe6069c91ce53 = L.marker(
                 [18.52043, 73.85674399999998],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_8c92f4548cb046ec834126381ff127c1 = L.popup({"maxWidth": "100%"});
+        var popup_30c0517ab0974363bff7a1ed1d2c483d = L.popup({"maxWidth": "100%"});
 
         
-            var html_b38c2979b52546afb502a8ea83f48437 = $(`<div id="html_b38c2979b52546afb502a8ea83f48437" style="width: 100.0%; height: 100.0%;"><i>PMC Police Welfare Center (N.G.O.) UFWC</i></div>`)[0];
-            popup_8c92f4548cb046ec834126381ff127c1.setContent(html_b38c2979b52546afb502a8ea83f48437);
+            var html_4cec52fa95bb4f4c937c41f6a27c0e5e = $(`<div id="html_4cec52fa95bb4f4c937c41f6a27c0e5e" style="width: 100.0%; height: 100.0%;"><i>PMC Police Welfare Center (N.G.O.) UFWC</i></div>`)[0];
+            popup_30c0517ab0974363bff7a1ed1d2c483d.setContent(html_4cec52fa95bb4f4c937c41f6a27c0e5e);
         
 
-        marker_1397e3ce36b4425287497e4f0ad716b0.bindPopup(popup_8c92f4548cb046ec834126381ff127c1)
+        marker_41c532c2fc1f4a00a6ebe6069c91ce53.bindPopup(popup_30c0517ab0974363bff7a1ed1d2c483d)
         ;
 
         
     
     
-            var marker_c2462d663a634428962bab1d6c2dae3f = L.marker(
+            var marker_f1dc3d7b9b3147e9957b4f4eb891cdad = L.marker(
                 [18.52043, 73.85674399999998],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_335e48e4987049458068eec527e16db2 = L.popup({"maxWidth": "100%"});
+        var popup_4468e9b9de064ed79e2b62bf5b2a21ba = L.popup({"maxWidth": "100%"});
 
         
-            var html_6d126569966c42ab88a5241ee216b7c3 = $(`<div id="html_6d126569966c42ab88a5241ee216b7c3" style="width: 100.0%; height: 100.0%;"><i>FPAI.NGO</i></div>`)[0];
-            popup_335e48e4987049458068eec527e16db2.setContent(html_6d126569966c42ab88a5241ee216b7c3);
+            var html_a7af148e554c48908eedcbe106274387 = $(`<div id="html_a7af148e554c48908eedcbe106274387" style="width: 100.0%; height: 100.0%;"><i>FPAI.NGO</i></div>`)[0];
+            popup_4468e9b9de064ed79e2b62bf5b2a21ba.setContent(html_a7af148e554c48908eedcbe106274387);
         
 
-        marker_c2462d663a634428962bab1d6c2dae3f.bindPopup(popup_335e48e4987049458068eec527e16db2)
+        marker_f1dc3d7b9b3147e9957b4f4eb891cdad.bindPopup(popup_4468e9b9de064ed79e2b62bf5b2a21ba)
         ;
 
         
     
     
-            var marker_26201e76a0814b7ba0ff375a750f3cd4 = L.marker(
+            var marker_a06eb808ac3542a18c29ee93e814c9b7 = L.marker(
                 [18.503174, 73.808577],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_2eaa08ab06424330ab1406396688fa5a = L.popup({"maxWidth": "100%"});
+        var popup_6e3cbe441a0b48f2a28aea5adfbec88c = L.popup({"maxWidth": "100%"});
 
         
-            var html_38ca07f1210341c680a12119cad15ff4 = $(`<div id="html_38ca07f1210341c680a12119cad15ff4" style="width: 100.0%; height: 100.0%;"><i>Colony Nursing Home NGO</i></div>`)[0];
-            popup_2eaa08ab06424330ab1406396688fa5a.setContent(html_38ca07f1210341c680a12119cad15ff4);
+            var html_eb524e92d00944bf88e0820f90577201 = $(`<div id="html_eb524e92d00944bf88e0820f90577201" style="width: 100.0%; height: 100.0%;"><i>Colony Nursing Home NGO</i></div>`)[0];
+            popup_6e3cbe441a0b48f2a28aea5adfbec88c.setContent(html_eb524e92d00944bf88e0820f90577201);
         
 
-        marker_26201e76a0814b7ba0ff375a750f3cd4.bindPopup(popup_2eaa08ab06424330ab1406396688fa5a)
+        marker_a06eb808ac3542a18c29ee93e814c9b7.bindPopup(popup_6e3cbe441a0b48f2a28aea5adfbec88c)
         ;
 
         
     
     
-            var marker_c2d559ed2d1648a69e4b20f44734545f = L.marker(
+            var marker_dd8b35b6ffd940b88c5d6980ed273ba2 = L.marker(
                 [18.3017, 73.5254],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_e3b8493cf2054dc58ab8a55240f0bf6e = L.popup({"maxWidth": "100%"});
+        var popup_f55d009a32cc480ab8b92e1d6e396c6a = L.popup({"maxWidth": "100%"});
 
         
-            var html_d1144f82ed2e4d7f944af2f2ccb13ed6 = $(`<div id="html_d1144f82ed2e4d7f944af2f2ccb13ed6" style="width: 100.0%; height: 100.0%;"><i>Sardar Vallabhbhai Patel Cantonment General Hospit</i></div>`)[0];
-            popup_e3b8493cf2054dc58ab8a55240f0bf6e.setContent(html_d1144f82ed2e4d7f944af2f2ccb13ed6);
+            var html_c7ee89e68bb148f49f541e1e63c6f14d = $(`<div id="html_c7ee89e68bb148f49f541e1e63c6f14d" style="width: 100.0%; height: 100.0%;"><i>Sardar Vallabhbhai Patel Cantonment General Hospit</i></div>`)[0];
+            popup_f55d009a32cc480ab8b92e1d6e396c6a.setContent(html_c7ee89e68bb148f49f541e1e63c6f14d);
         
 
-        marker_c2d559ed2d1648a69e4b20f44734545f.bindPopup(popup_e3b8493cf2054dc58ab8a55240f0bf6e)
+        marker_dd8b35b6ffd940b88c5d6980ed273ba2.bindPopup(popup_f55d009a32cc480ab8b92e1d6e396c6a)
         ;
 
         
     
     
-            var marker_a5c637447d71485aab8e3b5531ff5121 = L.marker(
+            var marker_b4b36b51281543009c2dd610da0443aa = L.marker(
                 [18.5204303, 73.85674370000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_a80ad584183d4d23a5ffcfea78dc1e1f = L.popup({"maxWidth": "100%"});
+        var popup_c636a6a8921c431f8d0e6942c66fc6cb = L.popup({"maxWidth": "100%"});
 
         
-            var html_e9c038ba16004d218564fdf6de3d2066 = $(`<div id="html_e9c038ba16004d218564fdf6de3d2066" style="width: 100.0%; height: 100.0%;"><i>PMC-Damodar Ravji Galande Patil Dawakhana Kalyanin</i></div>`)[0];
-            popup_a80ad584183d4d23a5ffcfea78dc1e1f.setContent(html_e9c038ba16004d218564fdf6de3d2066);
+            var html_091dd006fe614165a7ae874e152c1edb = $(`<div id="html_091dd006fe614165a7ae874e152c1edb" style="width: 100.0%; height: 100.0%;"><i>PMC-Damodar Ravji Galande Patil Dawakhana Kalyanin</i></div>`)[0];
+            popup_c636a6a8921c431f8d0e6942c66fc6cb.setContent(html_091dd006fe614165a7ae874e152c1edb);
         
 
-        marker_a5c637447d71485aab8e3b5531ff5121.bindPopup(popup_a80ad584183d4d23a5ffcfea78dc1e1f)
+        marker_b4b36b51281543009c2dd610da0443aa.bindPopup(popup_c636a6a8921c431f8d0e6942c66fc6cb)
         ;
 
         
     
     
-            var marker_dadca48c9d37417a9ef91ef54a0fa85a = L.marker(
+            var marker_aa049cfea6d2418ba2da818f3487c8b1 = L.marker(
                 [18.511939, 73.8579],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_54f08f238c69452c944e62e8426b9657 = L.popup({"maxWidth": "100%"});
+        var popup_67a546f1d3f144f1bdbdbb8e7461b098 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a8db8a8fa88242b4b6ec18ea38dafcbd = $(`<div id="html_a8db8a8fa88242b4b6ec18ea38dafcbd" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Namdevrao Shivarkar Maternity Home</i></div>`)[0];
-            popup_54f08f238c69452c944e62e8426b9657.setContent(html_a8db8a8fa88242b4b6ec18ea38dafcbd);
+            var html_2741e73022b34d8ba71d60f13210d3dc = $(`<div id="html_2741e73022b34d8ba71d60f13210d3dc" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Namdevrao Shivarkar Maternity Home</i></div>`)[0];
+            popup_67a546f1d3f144f1bdbdbb8e7461b098.setContent(html_2741e73022b34d8ba71d60f13210d3dc);
         
 
-        marker_dadca48c9d37417a9ef91ef54a0fa85a.bindPopup(popup_54f08f238c69452c944e62e8426b9657)
+        marker_aa049cfea6d2418ba2da818f3487c8b1.bindPopup(popup_67a546f1d3f144f1bdbdbb8e7461b098)
         ;
 
         
     
     
-            var marker_3c73ca1d6e2e40a684cacdae5e199c15 = L.marker(
+            var marker_3d1c52ccf540469983c6724fd4bd8566 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_9c9390c9c02e4b21b36e51969455ab47 = L.popup({"maxWidth": "100%"});
+        var popup_69f054f5c9544584a6f05b26ee1d0e5e = L.popup({"maxWidth": "100%"});
 
         
-            var html_fc8f20c5a30e4fffab924c5d0ea56c62 = $(`<div id="html_fc8f20c5a30e4fffab924c5d0ea56c62" style="width: 100.0%; height: 100.0%;"><i>P.M.C. Dalvi Hospital</i></div>`)[0];
-            popup_9c9390c9c02e4b21b36e51969455ab47.setContent(html_fc8f20c5a30e4fffab924c5d0ea56c62);
+            var html_502e3abd93ff4b58a56384b9d0dd7533 = $(`<div id="html_502e3abd93ff4b58a56384b9d0dd7533" style="width: 100.0%; height: 100.0%;"><i>P.M.C. Dalvi Hospital</i></div>`)[0];
+            popup_69f054f5c9544584a6f05b26ee1d0e5e.setContent(html_502e3abd93ff4b58a56384b9d0dd7533);
         
 
-        marker_3c73ca1d6e2e40a684cacdae5e199c15.bindPopup(popup_9c9390c9c02e4b21b36e51969455ab47)
+        marker_3d1c52ccf540469983c6724fd4bd8566.bindPopup(popup_69f054f5c9544584a6f05b26ee1d0e5e)
         ;
 
         
     
     
-            var marker_f1477aa102f7487290b3d01dbde60f6d = L.marker(
+            var marker_1917aa50988e4f2c9f8552650f62def6 = L.marker(
                 [18.523955, 73.854182],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_30163b0953414ae6ba3b12eefbacc2fe = L.popup({"maxWidth": "100%"});
+        var popup_8cd90bcd5d5d41f3b9e6742084f53605 = L.popup({"maxWidth": "100%"});
 
         
-            var html_5f5a74c968c34ccca6fb8d39dcc01e81 = $(`<div id="html_5f5a74c968c34ccca6fb8d39dcc01e81" style="width: 100.0%; height: 100.0%;"><i>PMC Bai Bhikayji Pestanji Bammanji Dawakhana</i></div>`)[0];
-            popup_30163b0953414ae6ba3b12eefbacc2fe.setContent(html_5f5a74c968c34ccca6fb8d39dcc01e81);
+            var html_92ece069aab0418bbb3c847d80231005 = $(`<div id="html_92ece069aab0418bbb3c847d80231005" style="width: 100.0%; height: 100.0%;"><i>PMC Bai Bhikayji Pestanji Bammanji Dawakhana</i></div>`)[0];
+            popup_8cd90bcd5d5d41f3b9e6742084f53605.setContent(html_92ece069aab0418bbb3c847d80231005);
         
 
-        marker_f1477aa102f7487290b3d01dbde60f6d.bindPopup(popup_30163b0953414ae6ba3b12eefbacc2fe)
+        marker_1917aa50988e4f2c9f8552650f62def6.bindPopup(popup_8cd90bcd5d5d41f3b9e6742084f53605)
         ;
 
         
     
     
-            var marker_a2e2240c33054ca186f947819e91d89a = L.marker(
+            var marker_d801a767b49d4e5fbb97183040847e1b = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_70362dccf76647bd803aaaaa7cb55351 = L.popup({"maxWidth": "100%"});
+        var popup_6fcc1f84c02a45f9831f3bb4064d1782 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3506f34ec63a465d922bf38ce0e49f10 = $(`<div id="html_3506f34ec63a465d922bf38ce0e49f10" style="width: 100.0%; height: 100.0%;"><i>PCMC Dapodi</i></div>`)[0];
-            popup_70362dccf76647bd803aaaaa7cb55351.setContent(html_3506f34ec63a465d922bf38ce0e49f10);
+            var html_77ffa9bf44f14bfc9998f20a700ccbf1 = $(`<div id="html_77ffa9bf44f14bfc9998f20a700ccbf1" style="width: 100.0%; height: 100.0%;"><i>PCMC Dapodi</i></div>`)[0];
+            popup_6fcc1f84c02a45f9831f3bb4064d1782.setContent(html_77ffa9bf44f14bfc9998f20a700ccbf1);
         
 
-        marker_a2e2240c33054ca186f947819e91d89a.bindPopup(popup_70362dccf76647bd803aaaaa7cb55351)
+        marker_d801a767b49d4e5fbb97183040847e1b.bindPopup(popup_6fcc1f84c02a45f9831f3bb4064d1782)
         ;
 
         
     
     
-            var marker_d068ea0525e64c6fbfe764d779af92c2 = L.marker(
+            var marker_e4b6ac8cf85f409994978512dfc4fa7d = L.marker(
                 [18.4626827, 73.8673358],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_75dd02d0c1a14c38b9839d8dee6ada1c = L.popup({"maxWidth": "100%"});
+        var popup_9b40b96599014947b054193f79e33873 = L.popup({"maxWidth": "100%"});
 
         
-            var html_c9b789145c194df8af1503495d4e9609 = $(`<div id="html_c9b789145c194df8af1503495d4e9609" style="width: 100.0%; height: 100.0%;"><i>PMC-Bibvevadi Dawakhana (UHP)</i></div>`)[0];
-            popup_75dd02d0c1a14c38b9839d8dee6ada1c.setContent(html_c9b789145c194df8af1503495d4e9609);
+            var html_6b2278b9e7f442d393539c87485c22dd = $(`<div id="html_6b2278b9e7f442d393539c87485c22dd" style="width: 100.0%; height: 100.0%;"><i>PMC-Bibvevadi Dawakhana (UHP)</i></div>`)[0];
+            popup_9b40b96599014947b054193f79e33873.setContent(html_6b2278b9e7f442d393539c87485c22dd);
         
 
-        marker_d068ea0525e64c6fbfe764d779af92c2.bindPopup(popup_75dd02d0c1a14c38b9839d8dee6ada1c)
+        marker_e4b6ac8cf85f409994978512dfc4fa7d.bindPopup(popup_9b40b96599014947b054193f79e33873)
         ;
 
         
     
     
-            var marker_db3ba241d8204f76b71ae7fef4bc51dc = L.marker(
+            var marker_c65ce6390d6f4ec6ad28329362da3d14 = L.marker(
                 [18.5783, 73.8046],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_ce073c5cd9f84137a92595e4491600d6 = L.popup({"maxWidth": "100%"});
+        var popup_6314821c58374e1b8fdbe65a7f84c192 = L.popup({"maxWidth": "100%"});
 
         
-            var html_1d88c17f0e424daaadc3b8f19b70a3d4 = $(`<div id="html_1d88c17f0e424daaadc3b8f19b70a3d4" style="width: 100.0%; height: 100.0%;"><i>District Hospital, Pune</i></div>`)[0];
-            popup_ce073c5cd9f84137a92595e4491600d6.setContent(html_1d88c17f0e424daaadc3b8f19b70a3d4);
+            var html_25fadc20e5734fc7bacdf026f0c926b2 = $(`<div id="html_25fadc20e5734fc7bacdf026f0c926b2" style="width: 100.0%; height: 100.0%;"><i>District Hospital, Pune</i></div>`)[0];
+            popup_6314821c58374e1b8fdbe65a7f84c192.setContent(html_25fadc20e5734fc7bacdf026f0c926b2);
         
 
-        marker_db3ba241d8204f76b71ae7fef4bc51dc.bindPopup(popup_ce073c5cd9f84137a92595e4491600d6)
+        marker_c65ce6390d6f4ec6ad28329362da3d14.bindPopup(popup_6314821c58374e1b8fdbe65a7f84c192)
         ;
 
         
     
     
-            var marker_8759a9751a7b4a2c84b870ad20a74646 = L.marker(
+            var marker_f5709825ea7d4112b443e868168cd9bf = L.marker(
                 [18.653836, 73.90740699999998],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_b86d45914ce740b7b7af1f15fd017836 = L.popup({"maxWidth": "100%"});
+        var popup_0255a0e3763844a3930c4364d5fbbb88 = L.popup({"maxWidth": "100%"});
 
         
-            var html_97d47a1ac69440a0a620d9246441dbd6 = $(`<div id="html_97d47a1ac69440a0a620d9246441dbd6" style="width: 100.0%; height: 100.0%;"><i>PCMC-Charholi Dispensary</i></div>`)[0];
-            popup_b86d45914ce740b7b7af1f15fd017836.setContent(html_97d47a1ac69440a0a620d9246441dbd6);
+            var html_72bdd33e27f34c9d90f3a3683d6235aa = $(`<div id="html_72bdd33e27f34c9d90f3a3683d6235aa" style="width: 100.0%; height: 100.0%;"><i>PCMC-Charholi Dispensary</i></div>`)[0];
+            popup_0255a0e3763844a3930c4364d5fbbb88.setContent(html_72bdd33e27f34c9d90f3a3683d6235aa);
         
 
-        marker_8759a9751a7b4a2c84b870ad20a74646.bindPopup(popup_b86d45914ce740b7b7af1f15fd017836)
+        marker_f5709825ea7d4112b443e868168cd9bf.bindPopup(popup_0255a0e3763844a3930c4364d5fbbb88)
         ;
 
         
     
     
-            var marker_22c438ab4bad408da84e5e6dadcd6a2c = L.marker(
+            var marker_b8a3535d37c34219b4b3b1943d9c07c1 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_8f50e4acd2254b4dbd9f0675c6050d96 = L.popup({"maxWidth": "100%"});
+        var popup_2cf669c4574b482f9d3fcdf81d45769d = L.popup({"maxWidth": "100%"});
 
         
-            var html_9f8f7e0a20244c81b07dce6778e794a0 = $(`<div id="html_9f8f7e0a20244c81b07dce6778e794a0" style="width: 100.0%; height: 100.0%;"><i>Shraddha Hospital</i></div>`)[0];
-            popup_8f50e4acd2254b4dbd9f0675c6050d96.setContent(html_9f8f7e0a20244c81b07dce6778e794a0);
+            var html_efcc5e5788c94445b68d02a8584c9e0a = $(`<div id="html_efcc5e5788c94445b68d02a8584c9e0a" style="width: 100.0%; height: 100.0%;"><i>Shraddha Hospital</i></div>`)[0];
+            popup_2cf669c4574b482f9d3fcdf81d45769d.setContent(html_efcc5e5788c94445b68d02a8584c9e0a);
         
 
-        marker_22c438ab4bad408da84e5e6dadcd6a2c.bindPopup(popup_8f50e4acd2254b4dbd9f0675c6050d96)
+        marker_b8a3535d37c34219b4b3b1943d9c07c1.bindPopup(popup_2cf669c4574b482f9d3fcdf81d45769d)
         ;
 
         
     
     
-            var marker_ea911fdffe8e42ed96c6426bfc237af0 = L.marker(
+            var marker_85d5efc333e543679a5bcf59faa583ff = L.marker(
                 [18.5117669, 73.8558736],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_a280e11fb1b04bb38d7909499dcc4010 = L.popup({"maxWidth": "100%"});
+        var popup_01cd93845e314576890bfaded7877aaa = L.popup({"maxWidth": "100%"});
 
         
-            var html_129b0a5e98e04433bb29498ce52e7df4 = $(`<div id="html_129b0a5e98e04433bb29498ce52e7df4" style="width: 100.0%; height: 100.0%;"><i>PMC-Dr. Kotnis Arogya kendra (UHP)</i></div>`)[0];
-            popup_a280e11fb1b04bb38d7909499dcc4010.setContent(html_129b0a5e98e04433bb29498ce52e7df4);
+            var html_33a3d7259e32460d81e79e7c0af1b159 = $(`<div id="html_33a3d7259e32460d81e79e7c0af1b159" style="width: 100.0%; height: 100.0%;"><i>PMC-Dr. Kotnis Arogya kendra (UHP)</i></div>`)[0];
+            popup_01cd93845e314576890bfaded7877aaa.setContent(html_33a3d7259e32460d81e79e7c0af1b159);
         
 
-        marker_ea911fdffe8e42ed96c6426bfc237af0.bindPopup(popup_a280e11fb1b04bb38d7909499dcc4010)
+        marker_85d5efc333e543679a5bcf59faa583ff.bindPopup(popup_01cd93845e314576890bfaded7877aaa)
         ;
 
         
     
     
-            var marker_0d3ba16efb704774a65617d6331f42e2 = L.marker(
+            var marker_ed05055502b14e0d8645b6457f77ba3c = L.marker(
                 [18.562931, 73.809976],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_164d40fa84dc4cae9610a2f730e3f7e6 = L.popup({"maxWidth": "100%"});
+        var popup_701bd769c2674ffa8d815878ad30038c = L.popup({"maxWidth": "100%"});
 
         
-            var html_37b0fbf31e694348b4057c1882bcffe1 = $(`<div id="html_37b0fbf31e694348b4057c1882bcffe1" style="width: 100.0%; height: 100.0%;"><i>PMC - Late Matoshri Ramabai Ambedkar Maternity Home</i></div>`)[0];
-            popup_164d40fa84dc4cae9610a2f730e3f7e6.setContent(html_37b0fbf31e694348b4057c1882bcffe1);
+            var html_9399977b6ef34761ade2a463c14eaf41 = $(`<div id="html_9399977b6ef34761ade2a463c14eaf41" style="width: 100.0%; height: 100.0%;"><i>PMC - Late Matoshri Ramabai Ambedkar Maternity Home</i></div>`)[0];
+            popup_701bd769c2674ffa8d815878ad30038c.setContent(html_9399977b6ef34761ade2a463c14eaf41);
         
 
-        marker_0d3ba16efb704774a65617d6331f42e2.bindPopup(popup_164d40fa84dc4cae9610a2f730e3f7e6)
+        marker_ed05055502b14e0d8645b6457f77ba3c.bindPopup(popup_701bd769c2674ffa8d815878ad30038c)
         ;
 
         
     
     
-            var marker_4facd67c26ce4389b2dfe7f2faf76db3 = L.marker(
+            var marker_96569a8de34a45549a23d0045416ddf6 = L.marker(
                 [18.671353, 73.778818],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_668743eb821b4f68b8856d7da9d79fd9 = L.popup({"maxWidth": "100%"});
+        var popup_a3c09da322c04162b0b7a10096faff66 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ae93b739fab4493491ffd04e81a660d4 = $(`<div id="html_ae93b739fab4493491ffd04e81a660d4" style="width: 100.0%; height: 100.0%;"><i>PCMC-Yamunanagar Maternity Home</i></div>`)[0];
-            popup_668743eb821b4f68b8856d7da9d79fd9.setContent(html_ae93b739fab4493491ffd04e81a660d4);
+            var html_50f58fe9e132439fa53288e75c46f129 = $(`<div id="html_50f58fe9e132439fa53288e75c46f129" style="width: 100.0%; height: 100.0%;"><i>PCMC-Yamunanagar Maternity Home</i></div>`)[0];
+            popup_a3c09da322c04162b0b7a10096faff66.setContent(html_50f58fe9e132439fa53288e75c46f129);
         
 
-        marker_4facd67c26ce4389b2dfe7f2faf76db3.bindPopup(popup_668743eb821b4f68b8856d7da9d79fd9)
+        marker_96569a8de34a45549a23d0045416ddf6.bindPopup(popup_a3c09da322c04162b0b7a10096faff66)
         ;
 
         
     
     
-            var marker_7bcc13c8ac194b7cbdcd6acc13673910 = L.marker(
+            var marker_3637cc18ebd94a54b9cbd093638f6fa9 = L.marker(
                 [18.635598, 73.760565],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_645f6ce7d2984963bf146915e6037ec0 = L.popup({"maxWidth": "100%"});
+        var popup_e2df741d64b64998a94fe405da89c9b2 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a70731edcfa04fb3b605852dd15592f2 = $(`<div id="html_a70731edcfa04fb3b605852dd15592f2" style="width: 100.0%; height: 100.0%;"><i>PCMC-Walhekarwadi Dispensary</i></div>`)[0];
-            popup_645f6ce7d2984963bf146915e6037ec0.setContent(html_a70731edcfa04fb3b605852dd15592f2);
+            var html_d149bc0da9204a65be87881d303ccbca = $(`<div id="html_d149bc0da9204a65be87881d303ccbca" style="width: 100.0%; height: 100.0%;"><i>PCMC-Walhekarwadi Dispensary</i></div>`)[0];
+            popup_e2df741d64b64998a94fe405da89c9b2.setContent(html_d149bc0da9204a65be87881d303ccbca);
         
 
-        marker_7bcc13c8ac194b7cbdcd6acc13673910.bindPopup(popup_645f6ce7d2984963bf146915e6037ec0)
+        marker_3637cc18ebd94a54b9cbd093638f6fa9.bindPopup(popup_e2df741d64b64998a94fe405da89c9b2)
         ;
 
         
     
     
-            var marker_e4ff195b9974422ba9219b360b6764c2 = L.marker(
+            var marker_7e84805f743043aebb8ced2bd214f7a5 = L.marker(
                 [18.53497, 73.87630300000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_5a4a7a630f1a4613ae515c1d8724228c = L.popup({"maxWidth": "100%"});
+        var popup_4128bc3c66c54ab7b65b154d1ecd9d78 = L.popup({"maxWidth": "100%"});
 
         
-            var html_82d64912596b4759b793538f5f9f561e = $(`<div id="html_82d64912596b4759b793538f5f9f561e" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Savitribai Phule Maternity Home</i></div>`)[0];
-            popup_5a4a7a630f1a4613ae515c1d8724228c.setContent(html_82d64912596b4759b793538f5f9f561e);
+            var html_7141cd71641248288c45df5dc252565f = $(`<div id="html_7141cd71641248288c45df5dc252565f" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Savitribai Phule Maternity Home</i></div>`)[0];
+            popup_4128bc3c66c54ab7b65b154d1ecd9d78.setContent(html_7141cd71641248288c45df5dc252565f);
         
 
-        marker_e4ff195b9974422ba9219b360b6764c2.bindPopup(popup_5a4a7a630f1a4613ae515c1d8724228c)
+        marker_7e84805f743043aebb8ced2bd214f7a5.bindPopup(popup_4128bc3c66c54ab7b65b154d1ecd9d78)
         ;
 
         
     
     
-            var marker_c5fef7816178467484002f95ab0f92f8 = L.marker(
+            var marker_d06ee9c5f7074ec083b6d6c5ad0c2c57 = L.marker(
                 [18.472309, 73.89229300000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_0eaacd5bf9284d18af33b2750994801e = L.popup({"maxWidth": "100%"});
+        var popup_bb672d115ed34b719923704c597a74c4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_00e8c835b75248a1b731f1faec6f344b = $(`<div id="html_00e8c835b75248a1b731f1faec6f344b" style="width: 100.0%; height: 100.0%;"><i>PMC - Mundhwa Kutir Rugnalay</i></div>`)[0];
-            popup_0eaacd5bf9284d18af33b2750994801e.setContent(html_00e8c835b75248a1b731f1faec6f344b);
+            var html_4da67f02af394cc8ad50bce6ed939e96 = $(`<div id="html_4da67f02af394cc8ad50bce6ed939e96" style="width: 100.0%; height: 100.0%;"><i>PMC - Mundhwa Kutir Rugnalay</i></div>`)[0];
+            popup_bb672d115ed34b719923704c597a74c4.setContent(html_4da67f02af394cc8ad50bce6ed939e96);
         
 
-        marker_c5fef7816178467484002f95ab0f92f8.bindPopup(popup_0eaacd5bf9284d18af33b2750994801e)
+        marker_d06ee9c5f7074ec083b6d6c5ad0c2c57.bindPopup(popup_bb672d115ed34b719923704c597a74c4)
         ;
 
         
     
     
-            var marker_1ffb0141e2d14194ba89911cacd361b2 = L.marker(
+            var marker_6905e9aa26354e88ba6fb19d0489c652 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_acb1722c873b409587302f06655b6c5f = L.popup({"maxWidth": "100%"});
+        var popup_ff48027b86cf4760aa4ed58af584d1f9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0c97afb1f6ce40ecbe974e337852a5db = $(`<div id="html_0c97afb1f6ce40ecbe974e337852a5db" style="width: 100.0%; height: 100.0%;"><i>PCMC Sangavi</i></div>`)[0];
-            popup_acb1722c873b409587302f06655b6c5f.setContent(html_0c97afb1f6ce40ecbe974e337852a5db);
+            var html_bfc7a86f17f2426bb5acaaf94a6cbefd = $(`<div id="html_bfc7a86f17f2426bb5acaaf94a6cbefd" style="width: 100.0%; height: 100.0%;"><i>PCMC Sangavi</i></div>`)[0];
+            popup_ff48027b86cf4760aa4ed58af584d1f9.setContent(html_bfc7a86f17f2426bb5acaaf94a6cbefd);
         
 
-        marker_1ffb0141e2d14194ba89911cacd361b2.bindPopup(popup_acb1722c873b409587302f06655b6c5f)
+        marker_6905e9aa26354e88ba6fb19d0489c652.bindPopup(popup_ff48027b86cf4760aa4ed58af584d1f9)
         ;
 
         
     
     
-            var marker_3e5edbac45f648fdba164ca6d50dd06f = L.marker(
+            var marker_5ba98b1a85d24ca88cb8491eea50cf74 = L.marker(
                 [18.593019, 73.759702],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_819b71967bb8401794fb48d29666cb1e = L.popup({"maxWidth": "100%"});
+        var popup_d48a26292e5e4c09a446c1dbafc12d0f = L.popup({"maxWidth": "100%"});
 
         
-            var html_427819a0bd1a46b7afa902b126eae8f7 = $(`<div id="html_427819a0bd1a46b7afa902b126eae8f7" style="width: 100.0%; height: 100.0%;"><i>PCMC-Kalakhadak Dispensary</i></div>`)[0];
-            popup_819b71967bb8401794fb48d29666cb1e.setContent(html_427819a0bd1a46b7afa902b126eae8f7);
+            var html_542a1e62b8594e4e94ec07bd1968148c = $(`<div id="html_542a1e62b8594e4e94ec07bd1968148c" style="width: 100.0%; height: 100.0%;"><i>PCMC-Kalakhadak Dispensary</i></div>`)[0];
+            popup_d48a26292e5e4c09a446c1dbafc12d0f.setContent(html_542a1e62b8594e4e94ec07bd1968148c);
         
 
-        marker_3e5edbac45f648fdba164ca6d50dd06f.bindPopup(popup_819b71967bb8401794fb48d29666cb1e)
+        marker_5ba98b1a85d24ca88cb8491eea50cf74.bindPopup(popup_d48a26292e5e4c09a446c1dbafc12d0f)
         ;
 
         
     
     
-            var marker_e23f61f4007b4cbcb0867f9b0bba3be8 = L.marker(
+            var marker_6fad3c3cf6fb4ac7b64e0a6f43da1a39 = L.marker(
                 [18.53497, 73.87630300000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_1a869cb5650a4406b4b01861491e96ac = L.popup({"maxWidth": "100%"});
+        var popup_a00363faf5224845947bfe477f387715 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ba7ccf3a4722406a864d9b23622c2af2 = $(`<div id="html_ba7ccf3a4722406a864d9b23622c2af2" style="width: 100.0%; height: 100.0%;"><i>PMC - Pashan Kuti Rugnalay</i></div>`)[0];
-            popup_1a869cb5650a4406b4b01861491e96ac.setContent(html_ba7ccf3a4722406a864d9b23622c2af2);
+            var html_bf17cccb031d44d4bb85b94b7a80920a = $(`<div id="html_bf17cccb031d44d4bb85b94b7a80920a" style="width: 100.0%; height: 100.0%;"><i>PMC - Pashan Kuti Rugnalay</i></div>`)[0];
+            popup_a00363faf5224845947bfe477f387715.setContent(html_bf17cccb031d44d4bb85b94b7a80920a);
         
 
-        marker_e23f61f4007b4cbcb0867f9b0bba3be8.bindPopup(popup_1a869cb5650a4406b4b01861491e96ac)
+        marker_6fad3c3cf6fb4ac7b64e0a6f43da1a39.bindPopup(popup_a00363faf5224845947bfe477f387715)
         ;
 
         
     
     
-            var marker_b17a8b4da6ca4a69ba295c7ac8d2fc6d = L.marker(
+            var marker_273ba30e81ca468d9c523ec4c5d8aec6 = L.marker(
                 [18.592868, 73.81884000000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_b9402f0d56fc44c6997ef0e15e619306 = L.popup({"maxWidth": "100%"});
+        var popup_05e7313c15e643faa069cd11b18d7819 = L.popup({"maxWidth": "100%"});
 
         
-            var html_30c0d537aee1491fa16381e466f1f75a = $(`<div id="html_30c0d537aee1491fa16381e466f1f75a" style="width: 100.0%; height: 100.0%;"><i>PCMC-Pimple Gurav Dispensary</i></div>`)[0];
-            popup_b9402f0d56fc44c6997ef0e15e619306.setContent(html_30c0d537aee1491fa16381e466f1f75a);
+            var html_095963d164734d07aaf8d2d34bbafd45 = $(`<div id="html_095963d164734d07aaf8d2d34bbafd45" style="width: 100.0%; height: 100.0%;"><i>PCMC-Pimple Gurav Dispensary</i></div>`)[0];
+            popup_05e7313c15e643faa069cd11b18d7819.setContent(html_095963d164734d07aaf8d2d34bbafd45);
         
 
-        marker_b17a8b4da6ca4a69ba295c7ac8d2fc6d.bindPopup(popup_b9402f0d56fc44c6997ef0e15e619306)
+        marker_273ba30e81ca468d9c523ec4c5d8aec6.bindPopup(popup_05e7313c15e643faa069cd11b18d7819)
         ;
 
         
     
     
-            var marker_a21e68a60b16429aba76441148d0fbd5 = L.marker(
+            var marker_292a18ff00004033ab49d60273e05405 = L.marker(
                 [18.5649157, 73.8106306],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_7afe9250dba44b549b0e02884d2115a9 = L.popup({"maxWidth": "100%"});
+        var popup_aca164aa73634e19b8ad6770ad416e08 = L.popup({"maxWidth": "100%"});
 
         
-            var html_970b91812b7842d585cb31cc48a31801 = $(`<div id="html_970b91812b7842d585cb31cc48a31801" style="width: 100.0%; height: 100.0%;"><i>PMC-Baburao Genba Shevale Dawakhana (UHP)</i></div>`)[0];
-            popup_7afe9250dba44b549b0e02884d2115a9.setContent(html_970b91812b7842d585cb31cc48a31801);
+            var html_6d6e6cbbb6dc47d29b4dd0fa055fd162 = $(`<div id="html_6d6e6cbbb6dc47d29b4dd0fa055fd162" style="width: 100.0%; height: 100.0%;"><i>PMC-Baburao Genba Shevale Dawakhana (UHP)</i></div>`)[0];
+            popup_aca164aa73634e19b8ad6770ad416e08.setContent(html_6d6e6cbbb6dc47d29b4dd0fa055fd162);
         
 
-        marker_a21e68a60b16429aba76441148d0fbd5.bindPopup(popup_7afe9250dba44b549b0e02884d2115a9)
+        marker_292a18ff00004033ab49d60273e05405.bindPopup(popup_aca164aa73634e19b8ad6770ad416e08)
         ;
 
         
     
     
-            var marker_8308ebd4f5c14c08a8796281b6afc601 = L.marker(
+            var marker_3bb705f2cc8746cba5f733a45bb6f186 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_1308c7bed9e7431693faea6fd48d0298 = L.popup({"maxWidth": "100%"});
+        var popup_53666dc01a4c445b9c3bef88a83d934b = L.popup({"maxWidth": "100%"});
 
         
-            var html_4f26dc4ae99e4982aaf7898f5b307c67 = $(`<div id="html_4f26dc4ae99e4982aaf7898f5b307c67" style="width: 100.0%; height: 100.0%;"><i>P.M.C.Kamala Neharu Hospital</i></div>`)[0];
-            popup_1308c7bed9e7431693faea6fd48d0298.setContent(html_4f26dc4ae99e4982aaf7898f5b307c67);
+            var html_f3113a162b8340fcad15fede8a0dec63 = $(`<div id="html_f3113a162b8340fcad15fede8a0dec63" style="width: 100.0%; height: 100.0%;"><i>P.M.C.Kamala Neharu Hospital</i></div>`)[0];
+            popup_53666dc01a4c445b9c3bef88a83d934b.setContent(html_f3113a162b8340fcad15fede8a0dec63);
         
 
-        marker_8308ebd4f5c14c08a8796281b6afc601.bindPopup(popup_1308c7bed9e7431693faea6fd48d0298)
+        marker_3bb705f2cc8746cba5f733a45bb6f186.bindPopup(popup_53666dc01a4c445b9c3bef88a83d934b)
         ;
 
         
     
     
-            var marker_ec2ed5e21a3241faae6a56978c218cab = L.marker(
+            var marker_d6ec0da608954952a611428972c7bb24 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_6386807a42614b24b7231200bd208785 = L.popup({"maxWidth": "100%"});
+        var popup_ba67abc30a9c426abfd3999c105f8dd9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_48313c2a693740fc8ae71fac65c3f326 = $(`<div id="html_48313c2a693740fc8ae71fac65c3f326" style="width: 100.0%; height: 100.0%;"><i>PCMC Jijamata</i></div>`)[0];
-            popup_6386807a42614b24b7231200bd208785.setContent(html_48313c2a693740fc8ae71fac65c3f326);
+            var html_c0dac03d65a34d4ebb51b5ed62924f93 = $(`<div id="html_c0dac03d65a34d4ebb51b5ed62924f93" style="width: 100.0%; height: 100.0%;"><i>PCMC Jijamata</i></div>`)[0];
+            popup_ba67abc30a9c426abfd3999c105f8dd9.setContent(html_c0dac03d65a34d4ebb51b5ed62924f93);
         
 
-        marker_ec2ed5e21a3241faae6a56978c218cab.bindPopup(popup_6386807a42614b24b7231200bd208785)
+        marker_d6ec0da608954952a611428972c7bb24.bindPopup(popup_ba67abc30a9c426abfd3999c105f8dd9)
         ;
 
         
     
     
-            var marker_3b7ee5b9aac24e61bff944feae4ec8b7 = L.marker(
+            var marker_d6325179ed6a45818c52b2e0bb5069ef = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_1dc85533ee264697b6ff86f3e574867d = L.popup({"maxWidth": "100%"});
+        var popup_20b67ea9339b4951bfac3a7fbd558af8 = L.popup({"maxWidth": "100%"});
 
         
-            var html_389cb979a96c41e0aa68a065a63c2132 = $(`<div id="html_389cb979a96c41e0aa68a065a63c2132" style="width: 100.0%; height: 100.0%;"><i>PCMC Walhekarwadi</i></div>`)[0];
-            popup_1dc85533ee264697b6ff86f3e574867d.setContent(html_389cb979a96c41e0aa68a065a63c2132);
+            var html_0e028209ef7a4c479be99e0e9d406cd3 = $(`<div id="html_0e028209ef7a4c479be99e0e9d406cd3" style="width: 100.0%; height: 100.0%;"><i>PCMC Walhekarwadi</i></div>`)[0];
+            popup_20b67ea9339b4951bfac3a7fbd558af8.setContent(html_0e028209ef7a4c479be99e0e9d406cd3);
         
 
-        marker_3b7ee5b9aac24e61bff944feae4ec8b7.bindPopup(popup_1dc85533ee264697b6ff86f3e574867d)
+        marker_d6325179ed6a45818c52b2e0bb5069ef.bindPopup(popup_20b67ea9339b4951bfac3a7fbd558af8)
         ;
 
         
     
     
-            var marker_619b964d628e4df6879a838d435cd307 = L.marker(
+            var marker_6860159811964f28b4bdcada248b6f82 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_a4a9e377b9a543bb990fa3caa5c429ca = L.popup({"maxWidth": "100%"});
+        var popup_ef24ce04910b4b9eb7e47432e7249e91 = L.popup({"maxWidth": "100%"});
 
         
-            var html_7908fdf170d64125bcd4126ee2f3b37c = $(`<div id="html_7908fdf170d64125bcd4126ee2f3b37c" style="width: 100.0%; height: 100.0%;"><i>PMC-Sutika seva Mandir</i></div>`)[0];
-            popup_a4a9e377b9a543bb990fa3caa5c429ca.setContent(html_7908fdf170d64125bcd4126ee2f3b37c);
+            var html_17c68795e0334ba68f2b2af37b801478 = $(`<div id="html_17c68795e0334ba68f2b2af37b801478" style="width: 100.0%; height: 100.0%;"><i>PMC-Sutika seva Mandir</i></div>`)[0];
+            popup_ef24ce04910b4b9eb7e47432e7249e91.setContent(html_17c68795e0334ba68f2b2af37b801478);
         
 
-        marker_619b964d628e4df6879a838d435cd307.bindPopup(popup_a4a9e377b9a543bb990fa3caa5c429ca)
+        marker_6860159811964f28b4bdcada248b6f82.bindPopup(popup_ef24ce04910b4b9eb7e47432e7249e91)
         ;
 
         
     
     
-            var marker_7e8e26cf179e445997e77a038987e179 = L.marker(
+            var marker_db99fd087e884b7a81e0055fbe7b6384 = L.marker(
                 [18.53497, 73.87630300000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_2e841481ca4b4e8e8ad3aa3a56464180 = L.popup({"maxWidth": "100%"});
+        var popup_faae82ad744f475abdf92df7bd73f8f3 = L.popup({"maxWidth": "100%"});
 
         
-            var html_f822fb43ee0145929578ad3f00637ef6 = $(`<div id="html_f822fb43ee0145929578ad3f00637ef6" style="width: 100.0%; height: 100.0%;"><i>PMC - Bharatratna Late. Rajiv Gandhi Hospital</i></div>`)[0];
-            popup_2e841481ca4b4e8e8ad3aa3a56464180.setContent(html_f822fb43ee0145929578ad3f00637ef6);
+            var html_77e8f3169cd54df197257ccfb446b141 = $(`<div id="html_77e8f3169cd54df197257ccfb446b141" style="width: 100.0%; height: 100.0%;"><i>PMC - Bharatratna Late. Rajiv Gandhi Hospital</i></div>`)[0];
+            popup_faae82ad744f475abdf92df7bd73f8f3.setContent(html_77e8f3169cd54df197257ccfb446b141);
         
 
-        marker_7e8e26cf179e445997e77a038987e179.bindPopup(popup_2e841481ca4b4e8e8ad3aa3a56464180)
+        marker_db99fd087e884b7a81e0055fbe7b6384.bindPopup(popup_faae82ad744f475abdf92df7bd73f8f3)
         ;
 
         
     
     
-            var marker_578f81242b3441ee9efbc53dfd8339db = L.marker(
+            var marker_b3df7ab4e7a74d898a1f7484ca8428e5 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_6ccb0bd3b2b645808a4b2e61547b3f7b = L.popup({"maxWidth": "100%"});
+        var popup_82ef514e20004876bff2d5c9fe71a7e4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_442a91e01f064c9fa4970316e3b78421 = $(`<div id="html_442a91e01f064c9fa4970316e3b78421" style="width: 100.0%; height: 100.0%;"><i>Pune Mahila Mandal.NGO</i></div>`)[0];
-            popup_6ccb0bd3b2b645808a4b2e61547b3f7b.setContent(html_442a91e01f064c9fa4970316e3b78421);
+            var html_c74ef81c16ff498daa424b4664c5a59a = $(`<div id="html_c74ef81c16ff498daa424b4664c5a59a" style="width: 100.0%; height: 100.0%;"><i>Pune Mahila Mandal.NGO</i></div>`)[0];
+            popup_82ef514e20004876bff2d5c9fe71a7e4.setContent(html_c74ef81c16ff498daa424b4664c5a59a);
         
 
-        marker_578f81242b3441ee9efbc53dfd8339db.bindPopup(popup_6ccb0bd3b2b645808a4b2e61547b3f7b)
+        marker_b3df7ab4e7a74d898a1f7484ca8428e5.bindPopup(popup_82ef514e20004876bff2d5c9fe71a7e4)
         ;
 
         
     
     
-            var marker_74ef394d5ac74ec48b218873639948b9 = L.marker(
+            var marker_1adba7b7783741148191a88ed11a3b2d = L.marker(
                 [18.504991, 73.9272],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_d25dfb7cf722409ebc03ab39ff318e7d = L.popup({"maxWidth": "100%"});
+        var popup_244cd5d0adcc44979050030f18dad0e9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_d0e55139ec214bd4919cc5ed76403d05 = $(`<div id="html_d0e55139ec214bd4919cc5ed76403d05" style="width: 100.0%; height: 100.0%;"><i>Nobel Hospital</i></div>`)[0];
-            popup_d25dfb7cf722409ebc03ab39ff318e7d.setContent(html_d0e55139ec214bd4919cc5ed76403d05);
+            var html_f9e8f59b7b13464fa6655626ec79e535 = $(`<div id="html_f9e8f59b7b13464fa6655626ec79e535" style="width: 100.0%; height: 100.0%;"><i>Nobel Hospital</i></div>`)[0];
+            popup_244cd5d0adcc44979050030f18dad0e9.setContent(html_f9e8f59b7b13464fa6655626ec79e535);
         
 
-        marker_74ef394d5ac74ec48b218873639948b9.bindPopup(popup_d25dfb7cf722409ebc03ab39ff318e7d)
+        marker_1adba7b7783741148191a88ed11a3b2d.bindPopup(popup_244cd5d0adcc44979050030f18dad0e9)
         ;
 
         
     
     
-            var marker_c95432220c1a4ea1a275259cd2122352 = L.marker(
+            var marker_f1a5c110ba2b498192406be34e5eff44 = L.marker(
                 [18.506593, 73.860676],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_376de46874f7405b96de1a971ba27855 = L.popup({"maxWidth": "100%"});
+        var popup_3d2acb2585364d1f8a6233bd4d019c08 = L.popup({"maxWidth": "100%"});
 
         
-            var html_f134de2110854de6af2d8b1a079d1beb = $(`<div id="html_f134de2110854de6af2d8b1a079d1beb" style="width: 100.0%; height: 100.0%;"><i>PMC - Aundh Kuti Rugnalay</i></div>`)[0];
-            popup_376de46874f7405b96de1a971ba27855.setContent(html_f134de2110854de6af2d8b1a079d1beb);
+            var html_861b715f786b4c5b8b3357401a4a1eb1 = $(`<div id="html_861b715f786b4c5b8b3357401a4a1eb1" style="width: 100.0%; height: 100.0%;"><i>PMC - Aundh Kuti Rugnalay</i></div>`)[0];
+            popup_3d2acb2585364d1f8a6233bd4d019c08.setContent(html_861b715f786b4c5b8b3357401a4a1eb1);
         
 
-        marker_c95432220c1a4ea1a275259cd2122352.bindPopup(popup_376de46874f7405b96de1a971ba27855)
+        marker_f1a5c110ba2b498192406be34e5eff44.bindPopup(popup_3d2acb2585364d1f8a6233bd4d019c08)
         ;
 
         
     
     
-            var marker_51b7721e7ff046e4b281cee27e7442a7 = L.marker(
+            var marker_a84e7a0b778542deb520a92bac8c2292 = L.marker(
                 [18.5154741, 73.8500717],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_667b1b4af88842889fd0e3860bceb2eb = L.popup({"maxWidth": "100%"});
+        var popup_99d1be36048448e5875829cd93f10d69 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ab2cfcdeb2394c038296670932007ecd = $(`<div id="html_ab2cfcdeb2394c038296670932007ecd" style="width: 100.0%; height: 100.0%;"><i>PMC Late. Kalavatibai Mavale Dawakhana</i></div>`)[0];
-            popup_667b1b4af88842889fd0e3860bceb2eb.setContent(html_ab2cfcdeb2394c038296670932007ecd);
+            var html_63cacc98b09e46c4bdd193397e15ab19 = $(`<div id="html_63cacc98b09e46c4bdd193397e15ab19" style="width: 100.0%; height: 100.0%;"><i>PMC Late. Kalavatibai Mavale Dawakhana</i></div>`)[0];
+            popup_99d1be36048448e5875829cd93f10d69.setContent(html_63cacc98b09e46c4bdd193397e15ab19);
         
 
-        marker_51b7721e7ff046e4b281cee27e7442a7.bindPopup(popup_667b1b4af88842889fd0e3860bceb2eb)
+        marker_a84e7a0b778542deb520a92bac8c2292.bindPopup(popup_99d1be36048448e5875829cd93f10d69)
         ;
 
         
     
     
-            var marker_3dfbc8bcbf98407e8f90dd53ce5e8b18 = L.marker(
+            var marker_92ee235636734cae99961434ecf2d38d = L.marker(
                 [18.5007301, 73.8668288],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_eac1968e435d4102ba7eecd994c31268 = L.popup({"maxWidth": "100%"});
+        var popup_a65a020903374336bfd67e02e4ec68b4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_c5c5d8516e42455aada24da45df29646 = $(`<div id="html_c5c5d8516e42455aada24da45df29646" style="width: 100.0%; height: 100.0%;"><i>Meera Hospital</i></div>`)[0];
-            popup_eac1968e435d4102ba7eecd994c31268.setContent(html_c5c5d8516e42455aada24da45df29646);
+            var html_b053de31c8f743e4a9983201c0cd34af = $(`<div id="html_b053de31c8f743e4a9983201c0cd34af" style="width: 100.0%; height: 100.0%;"><i>Meera Hospital</i></div>`)[0];
+            popup_a65a020903374336bfd67e02e4ec68b4.setContent(html_b053de31c8f743e4a9983201c0cd34af);
         
 
-        marker_3dfbc8bcbf98407e8f90dd53ce5e8b18.bindPopup(popup_eac1968e435d4102ba7eecd994c31268)
+        marker_92ee235636734cae99961434ecf2d38d.bindPopup(popup_a65a020903374336bfd67e02e4ec68b4)
         ;
 
         
     
     
-            var marker_8dba496103924a5f8fdd7fcbe682e707 = L.marker(
+            var marker_7f6d6f74257549c0b8ce7b341f038556 = L.marker(
                 [18.641759, 73.794885],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_d25d42bd27e74936955e4c05fab12ac0 = L.popup({"maxWidth": "100%"});
+        var popup_720ad5eed636452da79a2cf286559015 = L.popup({"maxWidth": "100%"});
 
         
-            var html_d720c7aee97d493da561ecaafe320a72 = $(`<div id="html_d720c7aee97d493da561ecaafe320a72" style="width: 100.0%; height: 100.0%;"><i>PCMC-Chinchwad Station Dispensary</i></div>`)[0];
-            popup_d25d42bd27e74936955e4c05fab12ac0.setContent(html_d720c7aee97d493da561ecaafe320a72);
+            var html_103ee15ad7224f51b49b29474cd243b5 = $(`<div id="html_103ee15ad7224f51b49b29474cd243b5" style="width: 100.0%; height: 100.0%;"><i>PCMC-Chinchwad Station Dispensary</i></div>`)[0];
+            popup_720ad5eed636452da79a2cf286559015.setContent(html_103ee15ad7224f51b49b29474cd243b5);
         
 
-        marker_8dba496103924a5f8fdd7fcbe682e707.bindPopup(popup_d25d42bd27e74936955e4c05fab12ac0)
+        marker_7f6d6f74257549c0b8ce7b341f038556.bindPopup(popup_720ad5eed636452da79a2cf286559015)
         ;
 
         
     
     
-            var marker_f5cf2b9ebebc410b8e12df0b5da6f84f = L.marker(
+            var marker_3645ea63d0b643ac91b4be5a708c6f1c = L.marker(
                 [18.657732, 73.765844],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_dc3902bf6d284a7facf988cec2a538fa = L.popup({"maxWidth": "100%"});
+        var popup_862748a79436462e88a18cd0a15d3cd2 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a29d4a92286648fd9995543595502475 = $(`<div id="html_a29d4a92286648fd9995543595502475" style="width: 100.0%; height: 100.0%;"><i>PCMC-Pradhikaran Dispensary</i></div>`)[0];
-            popup_dc3902bf6d284a7facf988cec2a538fa.setContent(html_a29d4a92286648fd9995543595502475);
+            var html_2ac275e2d5f44f55a099438074faa036 = $(`<div id="html_2ac275e2d5f44f55a099438074faa036" style="width: 100.0%; height: 100.0%;"><i>PCMC-Pradhikaran Dispensary</i></div>`)[0];
+            popup_862748a79436462e88a18cd0a15d3cd2.setContent(html_2ac275e2d5f44f55a099438074faa036);
         
 
-        marker_f5cf2b9ebebc410b8e12df0b5da6f84f.bindPopup(popup_dc3902bf6d284a7facf988cec2a538fa)
+        marker_3645ea63d0b643ac91b4be5a708c6f1c.bindPopup(popup_862748a79436462e88a18cd0a15d3cd2)
         ;
 
         
     
     
-            var marker_a12f4692284f4e6c83194e967910fb6c = L.marker(
+            var marker_30a7b6faef484e73a5fc02771dce77cb = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_736285eeb9b344f59522525f613bac23 = L.popup({"maxWidth": "100%"});
+        var popup_dc603c676ac14593a982f64add863df4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_5d4411136df84a7eacb60e54731fb3d9 = $(`<div id="html_5d4411136df84a7eacb60e54731fb3d9" style="width: 100.0%; height: 100.0%;"><i>PCMC YCMH</i></div>`)[0];
-            popup_736285eeb9b344f59522525f613bac23.setContent(html_5d4411136df84a7eacb60e54731fb3d9);
+            var html_aae57cb9befc49ec84fb93e74ae8ed68 = $(`<div id="html_aae57cb9befc49ec84fb93e74ae8ed68" style="width: 100.0%; height: 100.0%;"><i>PCMC YCMH</i></div>`)[0];
+            popup_dc603c676ac14593a982f64add863df4.setContent(html_aae57cb9befc49ec84fb93e74ae8ed68);
         
 
-        marker_a12f4692284f4e6c83194e967910fb6c.bindPopup(popup_736285eeb9b344f59522525f613bac23)
+        marker_30a7b6faef484e73a5fc02771dce77cb.bindPopup(popup_dc603c676ac14593a982f64add863df4)
         ;
 
         
     
     
-            var marker_9178dccdb7c74d03b29170d5c0bae8f7 = L.marker(
+            var marker_3fa275b5e48948c3998187d36b7e762f = L.marker(
                 [18.581159, 73.834366],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_728a4c81520940628540e4b0e07f8b5e = L.popup({"maxWidth": "100%"});
+        var popup_79b5fe93a96042f8a0dc9ff5d220524b = L.popup({"maxWidth": "100%"});
 
         
-            var html_a9152fe92fc44956855b61311b276132 = $(`<div id="html_a9152fe92fc44956855b61311b276132" style="width: 100.0%; height: 100.0%;"><i>PCMC-Dapodi Dispensary</i></div>`)[0];
-            popup_728a4c81520940628540e4b0e07f8b5e.setContent(html_a9152fe92fc44956855b61311b276132);
+            var html_a9efe04c550e426cbb1b0013e97ebb0e = $(`<div id="html_a9efe04c550e426cbb1b0013e97ebb0e" style="width: 100.0%; height: 100.0%;"><i>PCMC-Dapodi Dispensary</i></div>`)[0];
+            popup_79b5fe93a96042f8a0dc9ff5d220524b.setContent(html_a9efe04c550e426cbb1b0013e97ebb0e);
         
 
-        marker_9178dccdb7c74d03b29170d5c0bae8f7.bindPopup(popup_728a4c81520940628540e4b0e07f8b5e)
+        marker_3fa275b5e48948c3998187d36b7e762f.bindPopup(popup_79b5fe93a96042f8a0dc9ff5d220524b)
         ;
 
         
     
     
-            var marker_545c5c3afed3479aa4b937d872811bed = L.marker(
+            var marker_72f0751b5fa44a95b7b4d8eafd96f6e6 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_84bc4563beb64245981df323762566bc = L.popup({"maxWidth": "100%"});
+        var popup_e86acfa32fa94e47a933801a9915b28a = L.popup({"maxWidth": "100%"});
 
         
-            var html_1f4ebb238e47415c9f76b45b9feba3b1 = $(`<div id="html_1f4ebb238e47415c9f76b45b9feba3b1" style="width: 100.0%; height: 100.0%;"><i>PMC Sonawane Hospital</i></div>`)[0];
-            popup_84bc4563beb64245981df323762566bc.setContent(html_1f4ebb238e47415c9f76b45b9feba3b1);
+            var html_b9a160b8d94e41958524a73f1721ff0e = $(`<div id="html_b9a160b8d94e41958524a73f1721ff0e" style="width: 100.0%; height: 100.0%;"><i>PMC Sonawane Hospital</i></div>`)[0];
+            popup_e86acfa32fa94e47a933801a9915b28a.setContent(html_b9a160b8d94e41958524a73f1721ff0e);
         
 
-        marker_545c5c3afed3479aa4b937d872811bed.bindPopup(popup_84bc4563beb64245981df323762566bc)
+        marker_72f0751b5fa44a95b7b4d8eafd96f6e6.bindPopup(popup_e86acfa32fa94e47a933801a9915b28a)
         ;
 
         
     
     
-            var marker_0b0cccd3694d4eb5b05c1e1b6e6bb2ee = L.marker(
+            var marker_7da45a6c85d1414080527ae60da325e5 = L.marker(
                 [18.5011012, 73.8529944],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_8f69ce46fed74747b46389802f3c4dfb = L.popup({"maxWidth": "100%"});
+        var popup_74bb3bc553eb4ff3977a2b6ce0517447 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9028d4a21ff4489e90a3d4939112d726 = $(`<div id="html_9028d4a21ff4489e90a3d4939112d726" style="width: 100.0%; height: 100.0%;"><i>Patankar Hospital</i></div>`)[0];
-            popup_8f69ce46fed74747b46389802f3c4dfb.setContent(html_9028d4a21ff4489e90a3d4939112d726);
+            var html_1948f11a0fd9479c91042c605e5b08ec = $(`<div id="html_1948f11a0fd9479c91042c605e5b08ec" style="width: 100.0%; height: 100.0%;"><i>Patankar Hospital</i></div>`)[0];
+            popup_74bb3bc553eb4ff3977a2b6ce0517447.setContent(html_1948f11a0fd9479c91042c605e5b08ec);
         
 
-        marker_0b0cccd3694d4eb5b05c1e1b6e6bb2ee.bindPopup(popup_8f69ce46fed74747b46389802f3c4dfb)
+        marker_7da45a6c85d1414080527ae60da325e5.bindPopup(popup_74bb3bc553eb4ff3977a2b6ce0517447)
         ;
 
         
     
     
-            var marker_e9235bd49ac241f396b9a018f37e0b17 = L.marker(
+            var marker_9244412db1b6495897e2dd29387caf63 = L.marker(
                 [18.620483, 73.847314],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_a3dd228393644c2ab3bc5c64ce54d82a = L.popup({"maxWidth": "100%"});
+        var popup_74090934c9d046e193d9a0269661f847 = L.popup({"maxWidth": "100%"});
 
         
-            var html_43d3d07ad6f94945b95ea7e5a1529bae = $(`<div id="html_43d3d07ad6f94945b95ea7e5a1529bae" style="width: 100.0%; height: 100.0%;"><i>PCMC-Bhosari Hospital</i></div>`)[0];
-            popup_a3dd228393644c2ab3bc5c64ce54d82a.setContent(html_43d3d07ad6f94945b95ea7e5a1529bae);
+            var html_d2aeb50f289a4037a55f5a45b0fb8cbb = $(`<div id="html_d2aeb50f289a4037a55f5a45b0fb8cbb" style="width: 100.0%; height: 100.0%;"><i>PCMC-Bhosari Hospital</i></div>`)[0];
+            popup_74090934c9d046e193d9a0269661f847.setContent(html_d2aeb50f289a4037a55f5a45b0fb8cbb);
         
 
-        marker_e9235bd49ac241f396b9a018f37e0b17.bindPopup(popup_a3dd228393644c2ab3bc5c64ce54d82a)
+        marker_9244412db1b6495897e2dd29387caf63.bindPopup(popup_74090934c9d046e193d9a0269661f847)
         ;
 
         
     
     
-            var marker_0dbb4045bd9f4310bb34a7bf92da8568 = L.marker(
+            var marker_80e68a5d3af0469f8d3fe1004456615a = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_fa8909dd4dcc49bdb7e76614d2f092b4 = L.popup({"maxWidth": "100%"});
+        var popup_345d318fc6f645c2abec85f1a75a5aa2 = L.popup({"maxWidth": "100%"});
 
         
-            var html_1d7fc19291c247d88159529a25980f93 = $(`<div id="html_1d7fc19291c247d88159529a25980f93" style="width: 100.0%; height: 100.0%;"><i>PMC Niramay NGO</i></div>`)[0];
-            popup_fa8909dd4dcc49bdb7e76614d2f092b4.setContent(html_1d7fc19291c247d88159529a25980f93);
+            var html_1f59b16dd3074198872d1031c4caf10f = $(`<div id="html_1f59b16dd3074198872d1031c4caf10f" style="width: 100.0%; height: 100.0%;"><i>PMC Niramay NGO</i></div>`)[0];
+            popup_345d318fc6f645c2abec85f1a75a5aa2.setContent(html_1f59b16dd3074198872d1031c4caf10f);
         
 
-        marker_0dbb4045bd9f4310bb34a7bf92da8568.bindPopup(popup_fa8909dd4dcc49bdb7e76614d2f092b4)
+        marker_80e68a5d3af0469f8d3fe1004456615a.bindPopup(popup_345d318fc6f645c2abec85f1a75a5aa2)
         ;
 
         
     
     
-            var marker_f32a0d62458244b69276408c89febcab = L.marker(
+            var marker_d48e2f13a3124611abc876ddf8d74518 = L.marker(
                 [18.4760952, 73.8562578],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_5d9d831f9001492fa6128a5bfce26319 = L.popup({"maxWidth": "100%"});
+        var popup_d88c5bc68f2c40e1a8dd7fe7d604ae3e = L.popup({"maxWidth": "100%"});
 
         
-            var html_cc06f50f444f41439b0b4316dd3202e2 = $(`<div id="html_cc06f50f444f41439b0b4316dd3202e2" style="width: 100.0%; height: 100.0%;"><i>P.M.C. Late. Shivshankar Pote Dawakhana</i></div>`)[0];
-            popup_5d9d831f9001492fa6128a5bfce26319.setContent(html_cc06f50f444f41439b0b4316dd3202e2);
+            var html_d1de6666ef004e6f85e9946935c924d8 = $(`<div id="html_d1de6666ef004e6f85e9946935c924d8" style="width: 100.0%; height: 100.0%;"><i>P.M.C. Late. Shivshankar Pote Dawakhana</i></div>`)[0];
+            popup_d88c5bc68f2c40e1a8dd7fe7d604ae3e.setContent(html_d1de6666ef004e6f85e9946935c924d8);
         
 
-        marker_f32a0d62458244b69276408c89febcab.bindPopup(popup_5d9d831f9001492fa6128a5bfce26319)
+        marker_d48e2f13a3124611abc876ddf8d74518.bindPopup(popup_d88c5bc68f2c40e1a8dd7fe7d604ae3e)
         ;
 
         
     
     
-            var marker_e644c87db5a940318b99d35bcb3f95a5 = L.marker(
+            var marker_562bbd0d8ec945509c31d21d8d032b62 = L.marker(
                 [18.52043, 73.85674399999998],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_4eea5d280c734384bceac413e4a66e37 = L.popup({"maxWidth": "100%"});
+        var popup_cd9e19a0dd314335aa6321e3d3627dce = L.popup({"maxWidth": "100%"});
 
         
-            var html_01065910eb53497a91d85f174506eef4 = $(`<div id="html_01065910eb53497a91d85f174506eef4" style="width: 100.0%; height: 100.0%;"><i>PMC Maharashtra Arogya Mandal (N.G.O.)</i></div>`)[0];
-            popup_4eea5d280c734384bceac413e4a66e37.setContent(html_01065910eb53497a91d85f174506eef4);
+            var html_17a5248e1875430a8bb8abfb6cffa1c8 = $(`<div id="html_17a5248e1875430a8bb8abfb6cffa1c8" style="width: 100.0%; height: 100.0%;"><i>PMC Maharashtra Arogya Mandal (N.G.O.)</i></div>`)[0];
+            popup_cd9e19a0dd314335aa6321e3d3627dce.setContent(html_17a5248e1875430a8bb8abfb6cffa1c8);
         
 
-        marker_e644c87db5a940318b99d35bcb3f95a5.bindPopup(popup_4eea5d280c734384bceac413e4a66e37)
+        marker_562bbd0d8ec945509c31d21d8d032b62.bindPopup(popup_cd9e19a0dd314335aa6321e3d3627dce)
         ;
 
         
     
     
-            var marker_6d70c9b32bca4cb2acf8f793288e4b86 = L.marker(
+            var marker_0abc0c804c7344ea9c41247927646de1 = L.marker(
                 [19.997453, 73.78980200000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_a18c889a04c5439aa3122b508378c8d0 = L.popup({"maxWidth": "100%"});
+        var popup_9751557ad460406594b11f34a8ddf7ae = L.popup({"maxWidth": "100%"});
 
         
-            var html_2a5c38bc38fa4da3a5b3efce413916bc = $(`<div id="html_2a5c38bc38fa4da3a5b3efce413916bc" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Chandumama Sonawane Maternity Home</i></div>`)[0];
-            popup_a18c889a04c5439aa3122b508378c8d0.setContent(html_2a5c38bc38fa4da3a5b3efce413916bc);
+            var html_8a4be135c2e14ccf8a1b34f762f63faf = $(`<div id="html_8a4be135c2e14ccf8a1b34f762f63faf" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Chandumama Sonawane Maternity Home</i></div>`)[0];
+            popup_9751557ad460406594b11f34a8ddf7ae.setContent(html_8a4be135c2e14ccf8a1b34f762f63faf);
         
 
-        marker_6d70c9b32bca4cb2acf8f793288e4b86.bindPopup(popup_a18c889a04c5439aa3122b508378c8d0)
+        marker_0abc0c804c7344ea9c41247927646de1.bindPopup(popup_9751557ad460406594b11f34a8ddf7ae)
         ;
 
         
     
     
-            var marker_3c10325e87914c36a74b082b490c632e = L.marker(
+            var marker_5fb45629e4e248b09fa3f97cf89d9d32 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_549327d04b8b488ca9bbae9f1b9bdb39 = L.popup({"maxWidth": "100%"});
+        var popup_2ad390a522c2493b8c3cf831904a09b8 = L.popup({"maxWidth": "100%"});
 
         
-            var html_7d5a9995095348819b2083e7486a6ca3 = $(`<div id="html_7d5a9995095348819b2083e7486a6ca3" style="width: 100.0%; height: 100.0%;"><i>Vadelkar Hospital</i></div>`)[0];
-            popup_549327d04b8b488ca9bbae9f1b9bdb39.setContent(html_7d5a9995095348819b2083e7486a6ca3);
+            var html_be017182d3684ceaae2e7c8cbd757ceb = $(`<div id="html_be017182d3684ceaae2e7c8cbd757ceb" style="width: 100.0%; height: 100.0%;"><i>Vadelkar Hospital</i></div>`)[0];
+            popup_2ad390a522c2493b8c3cf831904a09b8.setContent(html_be017182d3684ceaae2e7c8cbd757ceb);
         
 
-        marker_3c10325e87914c36a74b082b490c632e.bindPopup(popup_549327d04b8b488ca9bbae9f1b9bdb39)
+        marker_5fb45629e4e248b09fa3f97cf89d9d32.bindPopup(popup_2ad390a522c2493b8c3cf831904a09b8)
         ;
 
         
     
     
-            var marker_136756587cb343f39d03f420d29c53a0 = L.marker(
+            var marker_5d5b52f7ab2b45cc9bb595319d26af21 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_a271b08dcd394b38a1c168ee6965d4c5 = L.popup({"maxWidth": "100%"});
+        var popup_250eaa4407524225982e0ff9901f3599 = L.popup({"maxWidth": "100%"});
 
         
-            var html_8eade919d4964fe29928f9ff86204603 = $(`<div id="html_8eade919d4964fe29928f9ff86204603" style="width: 100.0%; height: 100.0%;"><i>PCMC Talera</i></div>`)[0];
-            popup_a271b08dcd394b38a1c168ee6965d4c5.setContent(html_8eade919d4964fe29928f9ff86204603);
+            var html_3c086815a8cf4c649e0669385f22e540 = $(`<div id="html_3c086815a8cf4c649e0669385f22e540" style="width: 100.0%; height: 100.0%;"><i>PCMC Talera</i></div>`)[0];
+            popup_250eaa4407524225982e0ff9901f3599.setContent(html_3c086815a8cf4c649e0669385f22e540);
         
 
-        marker_136756587cb343f39d03f420d29c53a0.bindPopup(popup_a271b08dcd394b38a1c168ee6965d4c5)
+        marker_5d5b52f7ab2b45cc9bb595319d26af21.bindPopup(popup_250eaa4407524225982e0ff9901f3599)
         ;
 
         
     
     
-            var marker_5ef5cbfde79f4f9c8b75efd1980eab8e = L.marker(
+            var marker_cc14b51d3e7547d3a3e92183696b3e2a = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_ab2d4631a318441bb8960546228a7915 = L.popup({"maxWidth": "100%"});
+        var popup_85338e226de846129a9453033a1effed = L.popup({"maxWidth": "100%"});
 
         
-            var html_0cb8a90ff44a4f7d80f4bdf8d5b4b6f2 = $(`<div id="html_0cb8a90ff44a4f7d80f4bdf8d5b4b6f2" style="width: 100.0%; height: 100.0%;"><i>Meera Hospital 50 Bed</i></div>`)[0];
-            popup_ab2d4631a318441bb8960546228a7915.setContent(html_0cb8a90ff44a4f7d80f4bdf8d5b4b6f2);
+            var html_eeff4aaeed814729b197f8bc257016ec = $(`<div id="html_eeff4aaeed814729b197f8bc257016ec" style="width: 100.0%; height: 100.0%;"><i>Meera Hospital 50 Bed</i></div>`)[0];
+            popup_85338e226de846129a9453033a1effed.setContent(html_eeff4aaeed814729b197f8bc257016ec);
         
 
-        marker_5ef5cbfde79f4f9c8b75efd1980eab8e.bindPopup(popup_ab2d4631a318441bb8960546228a7915)
+        marker_cc14b51d3e7547d3a3e92183696b3e2a.bindPopup(popup_85338e226de846129a9453033a1effed)
         ;
 
         
     
     
-            var marker_e64ee39174bb40f08012be28162a350d = L.marker(
+            var marker_e0a630a7a4e74f0e99114761e0c81b39 = L.marker(
                 [18.4973103, 73.8510954],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_2fa220a3700c42099489d255bfaae5d5 = L.popup({"maxWidth": "100%"});
+        var popup_95b4c41f976c4845b816f45e772a12e9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0ff259872e5a4b27b265d0b3f72c592e = $(`<div id="html_0ff259872e5a4b27b265d0b3f72c592e" style="width: 100.0%; height: 100.0%;"><i>Purohit Hospital</i></div>`)[0];
-            popup_2fa220a3700c42099489d255bfaae5d5.setContent(html_0ff259872e5a4b27b265d0b3f72c592e);
+            var html_598f38d03fb3453ea87e479f8f522517 = $(`<div id="html_598f38d03fb3453ea87e479f8f522517" style="width: 100.0%; height: 100.0%;"><i>Purohit Hospital</i></div>`)[0];
+            popup_95b4c41f976c4845b816f45e772a12e9.setContent(html_598f38d03fb3453ea87e479f8f522517);
         
 
-        marker_e64ee39174bb40f08012be28162a350d.bindPopup(popup_2fa220a3700c42099489d255bfaae5d5)
+        marker_e0a630a7a4e74f0e99114761e0c81b39.bindPopup(popup_95b4c41f976c4845b816f45e772a12e9)
         ;
 
         
     
     
-            var marker_7c772b5b8a3f48729214b330715009a8 = L.marker(
+            var marker_46a24cce3a2b412d906fc108dcbf3101 = L.marker(
                 [18.4871077, 73.8157755],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_f0c8849e23f04a1dafa64ed62b0b2a96 = L.popup({"maxWidth": "100%"});
+        var popup_1fda9cb4e67a4e4b9c6c1ca314c793f3 = L.popup({"maxWidth": "100%"});
 
         
-            var html_d83701af59914be98a927036be5bb13b = $(`<div id="html_d83701af59914be98a927036be5bb13b" style="width: 100.0%; height: 100.0%;"><i>PMC-Vijyabai Shirke  Aarogya Kendra Hingne (UHP)</i></div>`)[0];
-            popup_f0c8849e23f04a1dafa64ed62b0b2a96.setContent(html_d83701af59914be98a927036be5bb13b);
+            var html_adb255de8b8242b0a739bf6e109f422b = $(`<div id="html_adb255de8b8242b0a739bf6e109f422b" style="width: 100.0%; height: 100.0%;"><i>PMC-Vijyabai Shirke  Aarogya Kendra Hingne (UHP)</i></div>`)[0];
+            popup_1fda9cb4e67a4e4b9c6c1ca314c793f3.setContent(html_adb255de8b8242b0a739bf6e109f422b);
         
 
-        marker_7c772b5b8a3f48729214b330715009a8.bindPopup(popup_f0c8849e23f04a1dafa64ed62b0b2a96)
+        marker_46a24cce3a2b412d906fc108dcbf3101.bindPopup(popup_1fda9cb4e67a4e4b9c6c1ca314c793f3)
         ;
 
         
     
     
-            var marker_209f77714e86437fa3a7b9d6ca6b4be8 = L.marker(
+            var marker_67ca42d9e905426d9068a5b10c96ae61 = L.marker(
                 [18.472309, 73.89229300000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_155a37320d8b4443b3b651c147a962f2 = L.popup({"maxWidth": "100%"});
+        var popup_d849edc001e3423eac457d77163dedf7 = L.popup({"maxWidth": "100%"});
 
         
-            var html_2e53d4f0766440f7adc18ea39efaa319 = $(`<div id="html_2e53d4f0766440f7adc18ea39efaa319" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Minatai Thakare Maternity Home</i></div>`)[0];
-            popup_155a37320d8b4443b3b651c147a962f2.setContent(html_2e53d4f0766440f7adc18ea39efaa319);
+            var html_d3521846251242ca87b4003ee3637236 = $(`<div id="html_d3521846251242ca87b4003ee3637236" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Minatai Thakare Maternity Home</i></div>`)[0];
+            popup_d849edc001e3423eac457d77163dedf7.setContent(html_d3521846251242ca87b4003ee3637236);
         
 
-        marker_209f77714e86437fa3a7b9d6ca6b4be8.bindPopup(popup_155a37320d8b4443b3b651c147a962f2)
+        marker_67ca42d9e905426d9068a5b10c96ae61.bindPopup(popup_d849edc001e3423eac457d77163dedf7)
         ;
 
         
     
     
-            var marker_7a13ada01f9a48588f9360d7a4485a5c = L.marker(
+            var marker_0d4e4e7e41224d758d472329108e49c2 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_cca85c97c75245b8b6d079057f12a4da = L.popup({"maxWidth": "100%"});
+        var popup_dcbee8729d7647ffbb672263ec696fe8 = L.popup({"maxWidth": "100%"});
 
         
-            var html_8dd5924c4504441ba7e0a2018ad274ef = $(`<div id="html_8dd5924c4504441ba7e0a2018ad274ef" style="width: 100.0%; height: 100.0%;"><i>PCMC Akurdi</i></div>`)[0];
-            popup_cca85c97c75245b8b6d079057f12a4da.setContent(html_8dd5924c4504441ba7e0a2018ad274ef);
+            var html_b2113cf3142e4ec8b6a71b300ee2c9e6 = $(`<div id="html_b2113cf3142e4ec8b6a71b300ee2c9e6" style="width: 100.0%; height: 100.0%;"><i>PCMC Akurdi</i></div>`)[0];
+            popup_dcbee8729d7647ffbb672263ec696fe8.setContent(html_b2113cf3142e4ec8b6a71b300ee2c9e6);
         
 
-        marker_7a13ada01f9a48588f9360d7a4485a5c.bindPopup(popup_cca85c97c75245b8b6d079057f12a4da)
+        marker_0d4e4e7e41224d758d472329108e49c2.bindPopup(popup_dcbee8729d7647ffbb672263ec696fe8)
         ;
 
         
     
     
-            var marker_23c4a4d3bc554210a4c64b2983bfc111 = L.marker(
+            var marker_885b5fcc0d0344149ae13c4ae4f198d0 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_fce7874915844923bd873a046337bbd5 = L.popup({"maxWidth": "100%"});
+        var popup_816a4795668f47caa3602cb34a41b34f = L.popup({"maxWidth": "100%"});
 
         
-            var html_155d6d0b3724409a8e337cb317618a08 = $(`<div id="html_155d6d0b3724409a8e337cb317618a08" style="width: 100.0%; height: 100.0%;"><i>PMC-Maharashtra Arogya Mandal Hadapsar</i></div>`)[0];
-            popup_fce7874915844923bd873a046337bbd5.setContent(html_155d6d0b3724409a8e337cb317618a08);
+            var html_9d7258c55eab47739bbcc5bec553540b = $(`<div id="html_9d7258c55eab47739bbcc5bec553540b" style="width: 100.0%; height: 100.0%;"><i>PMC-Maharashtra Arogya Mandal Hadapsar</i></div>`)[0];
+            popup_816a4795668f47caa3602cb34a41b34f.setContent(html_9d7258c55eab47739bbcc5bec553540b);
         
 
-        marker_23c4a4d3bc554210a4c64b2983bfc111.bindPopup(popup_fce7874915844923bd873a046337bbd5)
+        marker_885b5fcc0d0344149ae13c4ae4f198d0.bindPopup(popup_816a4795668f47caa3602cb34a41b34f)
         ;
 
         
     
     
-            var marker_8869bb74f01b4c8491a2a501ed438611 = L.marker(
+            var marker_00ac843ab9774106954789d3653cc15a = L.marker(
                 [18.5717864, 73.8775331],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_f5955fa9911544bf8b77aed63571f81a = L.popup({"maxWidth": "100%"});
+        var popup_fadceebd23644404abc0d8300ff91d17 = L.popup({"maxWidth": "100%"});
 
         
-            var html_6b0c1a6287544e38bcd78924db29a22b = $(`<div id="html_6b0c1a6287544e38bcd78924db29a22b" style="width: 100.0%; height: 100.0%;"><i>PMC-Siddharth Dawakhana Vishrantwadi (UHP)</i></div>`)[0];
-            popup_f5955fa9911544bf8b77aed63571f81a.setContent(html_6b0c1a6287544e38bcd78924db29a22b);
+            var html_556e706f86b64ab8ad17f3be9a365733 = $(`<div id="html_556e706f86b64ab8ad17f3be9a365733" style="width: 100.0%; height: 100.0%;"><i>PMC-Siddharth Dawakhana Vishrantwadi (UHP)</i></div>`)[0];
+            popup_fadceebd23644404abc0d8300ff91d17.setContent(html_556e706f86b64ab8ad17f3be9a365733);
         
 
-        marker_8869bb74f01b4c8491a2a501ed438611.bindPopup(popup_f5955fa9911544bf8b77aed63571f81a)
+        marker_00ac843ab9774106954789d3653cc15a.bindPopup(popup_fadceebd23644404abc0d8300ff91d17)
         ;
 
         
     
     
-            var marker_024a6100b7a5456db360f82dc60b5d0b = L.marker(
+            var marker_3162aed652f34cdbbbfefe14a0331d76 = L.marker(
                 [18.650484, 73.77857900000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_406c44ec57af43d6828af0f8bde7efce = L.popup({"maxWidth": "100%"});
+        var popup_76eb3e2aad9b44c2bba274739d81e6ca = L.popup({"maxWidth": "100%"});
 
         
-            var html_210b935713074d1187d897166bca19f3 = $(`<div id="html_210b935713074d1187d897166bca19f3" style="width: 100.0%; height: 100.0%;"><i>PCMC-Akurdi Hospital</i></div>`)[0];
-            popup_406c44ec57af43d6828af0f8bde7efce.setContent(html_210b935713074d1187d897166bca19f3);
+            var html_a764ef50f84c4c6291d34e1cab01d6a7 = $(`<div id="html_a764ef50f84c4c6291d34e1cab01d6a7" style="width: 100.0%; height: 100.0%;"><i>PCMC-Akurdi Hospital</i></div>`)[0];
+            popup_76eb3e2aad9b44c2bba274739d81e6ca.setContent(html_a764ef50f84c4c6291d34e1cab01d6a7);
         
 
-        marker_024a6100b7a5456db360f82dc60b5d0b.bindPopup(popup_406c44ec57af43d6828af0f8bde7efce)
+        marker_3162aed652f34cdbbbfefe14a0331d76.bindPopup(popup_76eb3e2aad9b44c2bba274739d81e6ca)
         ;
 
         
     
     
-            var marker_a7e68e7a1f504035bd526270bdb578cb = L.marker(
+            var marker_3c711314e23e43aba9249de4534c0088 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_05ec49badb7a4bd39ee7a62ff9f1a632 = L.popup({"maxWidth": "100%"});
+        var popup_1323a7e277d2405690af2e9203939cb0 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a94369191b7c40968fbe9a8574858a6e = $(`<div id="html_a94369191b7c40968fbe9a8574858a6e" style="width: 100.0%; height: 100.0%;"><i>PMC Sangamnerkar Hospital (N. G. O.)</i></div>`)[0];
-            popup_05ec49badb7a4bd39ee7a62ff9f1a632.setContent(html_a94369191b7c40968fbe9a8574858a6e);
+            var html_ed038884f3d04645936166336770c73e = $(`<div id="html_ed038884f3d04645936166336770c73e" style="width: 100.0%; height: 100.0%;"><i>PMC Sangamnerkar Hospital (N. G. O.)</i></div>`)[0];
+            popup_1323a7e277d2405690af2e9203939cb0.setContent(html_ed038884f3d04645936166336770c73e);
         
 
-        marker_a7e68e7a1f504035bd526270bdb578cb.bindPopup(popup_05ec49badb7a4bd39ee7a62ff9f1a632)
+        marker_3c711314e23e43aba9249de4534c0088.bindPopup(popup_1323a7e277d2405690af2e9203939cb0)
         ;
 
         
     
     
-            var marker_bc54623b9b4e43da97e6117fd29b8f09 = L.marker(
+            var marker_fcbd2083415e4a52b93652442158257a = L.marker(
                 [18.5204303, 73.85674370000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_b361542343024b1494d60eb19adec27a = L.popup({"maxWidth": "100%"});
+        var popup_aa665dbe209a46288f5e7e97ef6a1360 = L.popup({"maxWidth": "100%"});
 
         
-            var html_eb2b5619ddf44210912466e1efbf6c24 = $(`<div id="html_eb2b5619ddf44210912466e1efbf6c24" style="width: 100.0%; height: 100.0%;"><i>PMC. Wadgaon Dhayari Dispensaries</i></div>`)[0];
-            popup_b361542343024b1494d60eb19adec27a.setContent(html_eb2b5619ddf44210912466e1efbf6c24);
+            var html_a6c167f94a914b4ebe1581b982e0b096 = $(`<div id="html_a6c167f94a914b4ebe1581b982e0b096" style="width: 100.0%; height: 100.0%;"><i>PMC. Wadgaon Dhayari Dispensaries</i></div>`)[0];
+            popup_aa665dbe209a46288f5e7e97ef6a1360.setContent(html_a6c167f94a914b4ebe1581b982e0b096);
         
 
-        marker_bc54623b9b4e43da97e6117fd29b8f09.bindPopup(popup_b361542343024b1494d60eb19adec27a)
+        marker_fcbd2083415e4a52b93652442158257a.bindPopup(popup_aa665dbe209a46288f5e7e97ef6a1360)
         ;
 
         
     
     
-            var marker_4e5a644fd52b4b15ac462dedcb20cc99 = L.marker(
+            var marker_24a5d9d3124e40dd8ebd4ff5356e4df9 = L.marker(
                 [18.595336, 73.805262],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_5d2505eeb2054301a7eb10bb9e19dcfe = L.popup({"maxWidth": "100%"});
+        var popup_ebb76f82ca574358a4691e4addf6eae8 = L.popup({"maxWidth": "100%"});
 
         
-            var html_520e95d0b38c441c80047d37b670d326 = $(`<div id="html_520e95d0b38c441c80047d37b670d326" style="width: 100.0%; height: 100.0%;"><i>PCMC-Sangvi Maternity Home</i></div>`)[0];
-            popup_5d2505eeb2054301a7eb10bb9e19dcfe.setContent(html_520e95d0b38c441c80047d37b670d326);
+            var html_d4da634b00cf4ef9924dbdb84e6e4793 = $(`<div id="html_d4da634b00cf4ef9924dbdb84e6e4793" style="width: 100.0%; height: 100.0%;"><i>PCMC-Sangvi Maternity Home</i></div>`)[0];
+            popup_ebb76f82ca574358a4691e4addf6eae8.setContent(html_d4da634b00cf4ef9924dbdb84e6e4793);
         
 
-        marker_4e5a644fd52b4b15ac462dedcb20cc99.bindPopup(popup_5d2505eeb2054301a7eb10bb9e19dcfe)
+        marker_24a5d9d3124e40dd8ebd4ff5356e4df9.bindPopup(popup_ebb76f82ca574358a4691e4addf6eae8)
         ;
 
         
     
     
-            var marker_4f21ef94edd542368b9e067bb97d2975 = L.marker(
+            var marker_bd713c751ebd4f7899104592d49138e1 = L.marker(
                 [18.5687, 73.8485],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_88b3665ec5ae4f82973ed5cb830d5ad9 = L.popup({"maxWidth": "100%"});
+        var popup_24af15fb8fa3439499e7339444aa0cd1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_60e97f1625d641229ecda6929eee212a = $(`<div id="html_60e97f1625d641229ecda6929eee212a" style="width: 100.0%; height: 100.0%;"><i>Khadaki-Dr. B. Ambedkar Cant Gen Hosp, Khadaki</i></div>`)[0];
-            popup_88b3665ec5ae4f82973ed5cb830d5ad9.setContent(html_60e97f1625d641229ecda6929eee212a);
+            var html_50fefe1cef2245249dbb28be5622fd8f = $(`<div id="html_50fefe1cef2245249dbb28be5622fd8f" style="width: 100.0%; height: 100.0%;"><i>Khadaki-Dr. B. Ambedkar Cant Gen Hosp, Khadaki</i></div>`)[0];
+            popup_24af15fb8fa3439499e7339444aa0cd1.setContent(html_50fefe1cef2245249dbb28be5622fd8f);
         
 
-        marker_4f21ef94edd542368b9e067bb97d2975.bindPopup(popup_88b3665ec5ae4f82973ed5cb830d5ad9)
+        marker_bd713c751ebd4f7899104592d49138e1.bindPopup(popup_24af15fb8fa3439499e7339444aa0cd1)
         ;
 
         
     
     
-            var marker_fc23fe850a764c44904d73ffccac5b0b = L.marker(
+            var marker_e794256797c94468a09c2f31db04423d = L.marker(
                 [18.52254, 73.86268199999998],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_9f2c9c221baf498182ee02fc36dc6c73 = L.popup({"maxWidth": "100%"});
+        var popup_f3389994424245f0adec50e214f760a5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_30ee6552790047c2a5c27287a5873b0a = $(`<div id="html_30ee6552790047c2a5c27287a5873b0a" style="width: 100.0%; height: 100.0%;"><i>PMC - Kamla Nehru Hospital</i></div>`)[0];
-            popup_9f2c9c221baf498182ee02fc36dc6c73.setContent(html_30ee6552790047c2a5c27287a5873b0a);
+            var html_4fd427d803d945248202ed6a2903c2ea = $(`<div id="html_4fd427d803d945248202ed6a2903c2ea" style="width: 100.0%; height: 100.0%;"><i>PMC - Kamla Nehru Hospital</i></div>`)[0];
+            popup_f3389994424245f0adec50e214f760a5.setContent(html_4fd427d803d945248202ed6a2903c2ea);
         
 
-        marker_fc23fe850a764c44904d73ffccac5b0b.bindPopup(popup_9f2c9c221baf498182ee02fc36dc6c73)
+        marker_e794256797c94468a09c2f31db04423d.bindPopup(popup_f3389994424245f0adec50e214f760a5)
         ;
 
         
     
     
-            var marker_3fcad0132039437eb9effe696a566378 = L.marker(
+            var marker_03f4020f290f47d7a2e9dafabcbd9abf = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_21dcc98e1d4e40a0ba6b88ab717b69cc = L.popup({"maxWidth": "100%"});
+        var popup_ad419ec8633040dfbdf323effbb2aea9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_d4ee8af64a054925a36de8a87a17c8e6 = $(`<div id="html_d4ee8af64a054925a36de8a87a17c8e6" style="width: 100.0%; height: 100.0%;"><i>P.M.C. Bopodi Hospital</i></div>`)[0];
-            popup_21dcc98e1d4e40a0ba6b88ab717b69cc.setContent(html_d4ee8af64a054925a36de8a87a17c8e6);
+            var html_003a82554ed14676ad3638b9b286893d = $(`<div id="html_003a82554ed14676ad3638b9b286893d" style="width: 100.0%; height: 100.0%;"><i>P.M.C. Bopodi Hospital</i></div>`)[0];
+            popup_ad419ec8633040dfbdf323effbb2aea9.setContent(html_003a82554ed14676ad3638b9b286893d);
         
 
-        marker_3fcad0132039437eb9effe696a566378.bindPopup(popup_21dcc98e1d4e40a0ba6b88ab717b69cc)
+        marker_03f4020f290f47d7a2e9dafabcbd9abf.bindPopup(popup_ad419ec8633040dfbdf323effbb2aea9)
         ;
 
         
     
     
-            var marker_08a9dd52bcf7474d9b1df9340ee348e0 = L.marker(
+            var marker_062c87216bb54a89a27011970fd119b1 = L.marker(
                 [18.676384, 73.850114],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_adcbea4fea784b5c9a2054964795c1a7 = L.popup({"maxWidth": "100%"});
+        var popup_7a63b46c329b4bd29f1b61c3c31259d1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_dd7a26206b054a4fa60ac674c10f8c88 = $(`<div id="html_dd7a26206b054a4fa60ac674c10f8c88" style="width: 100.0%; height: 100.0%;"><i>PCMC-Moshi Dispensary</i></div>`)[0];
-            popup_adcbea4fea784b5c9a2054964795c1a7.setContent(html_dd7a26206b054a4fa60ac674c10f8c88);
+            var html_9565a51254fe4e069213f63c2f83d93f = $(`<div id="html_9565a51254fe4e069213f63c2f83d93f" style="width: 100.0%; height: 100.0%;"><i>PCMC-Moshi Dispensary</i></div>`)[0];
+            popup_7a63b46c329b4bd29f1b61c3c31259d1.setContent(html_9565a51254fe4e069213f63c2f83d93f);
         
 
-        marker_08a9dd52bcf7474d9b1df9340ee348e0.bindPopup(popup_adcbea4fea784b5c9a2054964795c1a7)
+        marker_062c87216bb54a89a27011970fd119b1.bindPopup(popup_7a63b46c329b4bd29f1b61c3c31259d1)
         ;
 
         
     
     
-            var marker_939043dfe77c44179fecc343ff22c2bc = L.marker(
+            var marker_83fc2c26b93245c7a878b046582e0f7c = L.marker(
                 [18.586954, 73.83455500000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_5e27993c24fa4105a508a642da383e6a = L.popup({"maxWidth": "100%"});
+        var popup_b01d3fc043644b2fa8ef3d220530e8ff = L.popup({"maxWidth": "100%"});
 
         
-            var html_5b2fc568b8fd4157a483c8c9a06c7ce7 = $(`<div id="html_5b2fc568b8fd4157a483c8c9a06c7ce7" style="width: 100.0%; height: 100.0%;"><i>PCMC-Phugewadi Dispensary</i></div>`)[0];
-            popup_5e27993c24fa4105a508a642da383e6a.setContent(html_5b2fc568b8fd4157a483c8c9a06c7ce7);
+            var html_7c49694a79e64889af79845509ed1bc6 = $(`<div id="html_7c49694a79e64889af79845509ed1bc6" style="width: 100.0%; height: 100.0%;"><i>PCMC-Phugewadi Dispensary</i></div>`)[0];
+            popup_b01d3fc043644b2fa8ef3d220530e8ff.setContent(html_7c49694a79e64889af79845509ed1bc6);
         
 
-        marker_939043dfe77c44179fecc343ff22c2bc.bindPopup(popup_5e27993c24fa4105a508a642da383e6a)
+        marker_83fc2c26b93245c7a878b046582e0f7c.bindPopup(popup_b01d3fc043644b2fa8ef3d220530e8ff)
         ;
 
         
     
     
-            var marker_57f8ac6fed7a43efa736f56a76fb0566 = L.marker(
+            var marker_34c128546c864df98b9b0eb56d7c5eaf = L.marker(
                 [19.616307, 74.657186],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_4aee2078937646649fd5563088b4425a = L.popup({"maxWidth": "100%"});
+        var popup_0afe386ab94042ad9f44d6492e473cb0 = L.popup({"maxWidth": "100%"});
 
         
-            var html_2d430784cf504380b4ca9158d877f85c = $(`<div id="html_2d430784cf504380b4ca9158d877f85c" style="width: 100.0%; height: 100.0%;"><i>PMC - Dr. Dalavi Hospital</i></div>`)[0];
-            popup_4aee2078937646649fd5563088b4425a.setContent(html_2d430784cf504380b4ca9158d877f85c);
+            var html_f5ba6fb848ab424b9d6e8f7d9a59b2c3 = $(`<div id="html_f5ba6fb848ab424b9d6e8f7d9a59b2c3" style="width: 100.0%; height: 100.0%;"><i>PMC - Dr. Dalavi Hospital</i></div>`)[0];
+            popup_0afe386ab94042ad9f44d6492e473cb0.setContent(html_f5ba6fb848ab424b9d6e8f7d9a59b2c3);
         
 
-        marker_57f8ac6fed7a43efa736f56a76fb0566.bindPopup(popup_4aee2078937646649fd5563088b4425a)
+        marker_34c128546c864df98b9b0eb56d7c5eaf.bindPopup(popup_0afe386ab94042ad9f44d6492e473cb0)
         ;
 
         
     
     
-            var marker_a2471735d0ed481096ee9fdd11233827 = L.marker(
+            var marker_d9e5ee6598c44fe693909a9c993c65bb = L.marker(
                 [18.516014, 73.863905],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_cdb8719eaaad4a0d939f8434c7c1df84 = L.popup({"maxWidth": "100%"});
+        var popup_b198af7dabe442ab8b5dc461bf1e4626 = L.popup({"maxWidth": "100%"});
 
         
-            var html_4d135b59b1ee42aa9cb7a8a47b83240b = $(`<div id="html_4d135b59b1ee42aa9cb7a8a47b83240b" style="width: 100.0%; height: 100.0%;"><i>PMC Tarachand Hospital (N.G.O.) (UFWC)</i></div>`)[0];
-            popup_cdb8719eaaad4a0d939f8434c7c1df84.setContent(html_4d135b59b1ee42aa9cb7a8a47b83240b);
+            var html_5223a1fb66de4f73b9f846d21daa987c = $(`<div id="html_5223a1fb66de4f73b9f846d21daa987c" style="width: 100.0%; height: 100.0%;"><i>PMC Tarachand Hospital (N.G.O.) (UFWC)</i></div>`)[0];
+            popup_b198af7dabe442ab8b5dc461bf1e4626.setContent(html_5223a1fb66de4f73b9f846d21daa987c);
         
 
-        marker_a2471735d0ed481096ee9fdd11233827.bindPopup(popup_cdb8719eaaad4a0d939f8434c7c1df84)
+        marker_d9e5ee6598c44fe693909a9c993c65bb.bindPopup(popup_b198af7dabe442ab8b5dc461bf1e4626)
         ;
 
         
     
     
-            var marker_5b2ac0c6803645ef8f6b221aa15c5a81 = L.marker(
+            var marker_7e8cc0e2fcc9434f89f137fd200a186d = L.marker(
                 [18.4760952, 73.8562578],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_1d04d783bde14373abab199b6bfce134 = L.popup({"maxWidth": "100%"});
+        var popup_11c80aad52d04ef291c6ff7cc8e86c14 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ccd87648d5c94a4f8db2cc645bb32f4c = $(`<div id="html_ccd87648d5c94a4f8db2cc645bb32f4c" style="width: 100.0%; height: 100.0%;"><i>PMC-Shivshankar Pote Dawakhana (Urban Health Post)</i></div>`)[0];
-            popup_1d04d783bde14373abab199b6bfce134.setContent(html_ccd87648d5c94a4f8db2cc645bb32f4c);
+            var html_6d14cbfc40b145d3b23be297a488c042 = $(`<div id="html_6d14cbfc40b145d3b23be297a488c042" style="width: 100.0%; height: 100.0%;"><i>PMC-Shivshankar Pote Dawakhana (Urban Health Post)</i></div>`)[0];
+            popup_11c80aad52d04ef291c6ff7cc8e86c14.setContent(html_6d14cbfc40b145d3b23be297a488c042);
         
 
-        marker_5b2ac0c6803645ef8f6b221aa15c5a81.bindPopup(popup_1d04d783bde14373abab199b6bfce134)
+        marker_7e8cc0e2fcc9434f89f137fd200a186d.bindPopup(popup_11c80aad52d04ef291c6ff7cc8e86c14)
         ;
 
         
     
     
-            var marker_cdbb7c3149e24663b53aa9523488cce9 = L.marker(
+            var marker_9f77f8d643574710be452992d68c1198 = L.marker(
                 [18.4865732, 73.85747629999999],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_a1bfe68047534639b994427dfad6255e = L.popup({"maxWidth": "100%"});
+        var popup_451c1ddc83494a6db6706ebf2be40b9d = L.popup({"maxWidth": "100%"});
 
         
-            var html_27d9aa023bcb482a9751fbd6c63fed4b = $(`<div id="html_27d9aa023bcb482a9751fbd6c63fed4b" style="width: 100.0%; height: 100.0%;"><i>Siddhant Hospital</i></div>`)[0];
-            popup_a1bfe68047534639b994427dfad6255e.setContent(html_27d9aa023bcb482a9751fbd6c63fed4b);
+            var html_7da7b23c3eb04dd2b8ac9250f33d0986 = $(`<div id="html_7da7b23c3eb04dd2b8ac9250f33d0986" style="width: 100.0%; height: 100.0%;"><i>Siddhant Hospital</i></div>`)[0];
+            popup_451c1ddc83494a6db6706ebf2be40b9d.setContent(html_7da7b23c3eb04dd2b8ac9250f33d0986);
         
 
-        marker_cdbb7c3149e24663b53aa9523488cce9.bindPopup(popup_a1bfe68047534639b994427dfad6255e)
+        marker_9f77f8d643574710be452992d68c1198.bindPopup(popup_451c1ddc83494a6db6706ebf2be40b9d)
         ;
 
         
     
     
-            var marker_13b1b51033ce48369e90b9022f96d60a = L.marker(
+            var marker_282e234f8dc2439bbd1737a97cf19745 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_812a16d906e344918f7d432b1d423788 = L.popup({"maxWidth": "100%"});
+        var popup_8771d46c999f4a1d91cac3f8d73f2c99 = L.popup({"maxWidth": "100%"});
 
         
-            var html_f83c24580b7644599d547ff49a6da73a = $(`<div id="html_f83c24580b7644599d547ff49a6da73a" style="width: 100.0%; height: 100.0%;"><i>Gupte Hospital</i></div>`)[0];
-            popup_812a16d906e344918f7d432b1d423788.setContent(html_f83c24580b7644599d547ff49a6da73a);
+            var html_0540e1ee1ca449f6b97ae85fb8a8ce2d = $(`<div id="html_0540e1ee1ca449f6b97ae85fb8a8ce2d" style="width: 100.0%; height: 100.0%;"><i>Gupte Hospital</i></div>`)[0];
+            popup_8771d46c999f4a1d91cac3f8d73f2c99.setContent(html_0540e1ee1ca449f6b97ae85fb8a8ce2d);
         
 
-        marker_13b1b51033ce48369e90b9022f96d60a.bindPopup(popup_812a16d906e344918f7d432b1d423788)
+        marker_282e234f8dc2439bbd1737a97cf19745.bindPopup(popup_8771d46c999f4a1d91cac3f8d73f2c99)
         ;
 
         
     
     
-            var marker_6a4ca1c6f71c41b8a5cf73669dd0787f = L.marker(
+            var marker_abe2bd52058645afac544b2252017119 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_8542a57e5e69489db44b3dc9d50ef4b8 = L.popup({"maxWidth": "100%"});
+        var popup_2c2e8f798583443d8c655ac722a9260e = L.popup({"maxWidth": "100%"});
 
         
-            var html_eae67e80bc1541e9bdfa483bad2f06dd = $(`<div id="html_eae67e80bc1541e9bdfa483bad2f06dd" style="width: 100.0%; height: 100.0%;"><i>PCMC Yamunanagar</i></div>`)[0];
-            popup_8542a57e5e69489db44b3dc9d50ef4b8.setContent(html_eae67e80bc1541e9bdfa483bad2f06dd);
+            var html_edb4dd2736b94b80a25646ba429c85f4 = $(`<div id="html_edb4dd2736b94b80a25646ba429c85f4" style="width: 100.0%; height: 100.0%;"><i>PCMC Yamunanagar</i></div>`)[0];
+            popup_2c2e8f798583443d8c655ac722a9260e.setContent(html_edb4dd2736b94b80a25646ba429c85f4);
         
 
-        marker_6a4ca1c6f71c41b8a5cf73669dd0787f.bindPopup(popup_8542a57e5e69489db44b3dc9d50ef4b8)
+        marker_abe2bd52058645afac544b2252017119.bindPopup(popup_2c2e8f798583443d8c655ac722a9260e)
         ;
 
         
     
     
-            var marker_fcff248c902b4213972a6c410c1576c3 = L.marker(
+            var marker_17537a7960a941b0b9fa3ebb38a74006 = L.marker(
                 [18.53497, 73.87630300000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_c8ab3f71e6ed436d823acf4f07d13bd9 = L.popup({"maxWidth": "100%"});
+        var popup_72100df1c0904ffea6be3ecdb3e437ca = L.popup({"maxWidth": "100%"});
 
         
-            var html_495c2ad5a22242dbb5a9b5c409cf18a7 = $(`<div id="html_495c2ad5a22242dbb5a9b5c409cf18a7" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Jayabai Nanasaheb Sutar Maternity Home</i></div>`)[0];
-            popup_c8ab3f71e6ed436d823acf4f07d13bd9.setContent(html_495c2ad5a22242dbb5a9b5c409cf18a7);
+            var html_119db0e88d2c42838979aa6e9c1c8fca = $(`<div id="html_119db0e88d2c42838979aa6e9c1c8fca" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Jayabai Nanasaheb Sutar Maternity Home</i></div>`)[0];
+            popup_72100df1c0904ffea6be3ecdb3e437ca.setContent(html_119db0e88d2c42838979aa6e9c1c8fca);
         
 
-        marker_fcff248c902b4213972a6c410c1576c3.bindPopup(popup_c8ab3f71e6ed436d823acf4f07d13bd9)
+        marker_17537a7960a941b0b9fa3ebb38a74006.bindPopup(popup_72100df1c0904ffea6be3ecdb3e437ca)
         ;
 
         
     
     
-            var marker_c9cfb7287bec4c73ab8ab0152afb384a = L.marker(
+            var marker_b5a5c611a1d1474ca368a0d32af05fb8 = L.marker(
                 [18.6374972, 73.83602509999999],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_394af5f169bc4bd488521c99564c4b91 = L.popup({"maxWidth": "100%"});
+        var popup_332027e4652f408494b4177d043a6866 = L.popup({"maxWidth": "100%"});
 
         
-            var html_93177d3ee0ea4837b253d1a499701237 = $(`<div id="html_93177d3ee0ea4837b253d1a499701237" style="width: 100.0%; height: 100.0%;"><i>Aalhatkar Hospital</i></div>`)[0];
-            popup_394af5f169bc4bd488521c99564c4b91.setContent(html_93177d3ee0ea4837b253d1a499701237);
+            var html_a2395a9c7b1a4326ac605ab1bd374893 = $(`<div id="html_a2395a9c7b1a4326ac605ab1bd374893" style="width: 100.0%; height: 100.0%;"><i>Aalhatkar Hospital</i></div>`)[0];
+            popup_332027e4652f408494b4177d043a6866.setContent(html_a2395a9c7b1a4326ac605ab1bd374893);
         
 
-        marker_c9cfb7287bec4c73ab8ab0152afb384a.bindPopup(popup_394af5f169bc4bd488521c99564c4b91)
+        marker_b5a5c611a1d1474ca368a0d32af05fb8.bindPopup(popup_332027e4652f408494b4177d043a6866)
         ;
 
         
     
     
-            var marker_c5230f38abe246a6a2d55c4c920ea918 = L.marker(
+            var marker_2c128cb119d84f2583abb76302826cf0 = L.marker(
                 [18.4875428, 73.7845569],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_47b552bb60b04d0da9403a2c59cc70ae = L.popup({"maxWidth": "100%"});
+        var popup_f68ae8e23d234008845fe65d5e908ea4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_5519d83b30864fcbaf5aca5b1c3232fc = $(`<div id="html_5519d83b30864fcbaf5aca5b1c3232fc" style="width: 100.0%; height: 100.0%;"><i>PMC-Arvind Ganpat Bartakke Dawakhana Atulnagar (UHP)</i></div>`)[0];
-            popup_47b552bb60b04d0da9403a2c59cc70ae.setContent(html_5519d83b30864fcbaf5aca5b1c3232fc);
+            var html_3f69dc716ce5491e8f600b29f11911db = $(`<div id="html_3f69dc716ce5491e8f600b29f11911db" style="width: 100.0%; height: 100.0%;"><i>PMC-Arvind Ganpat Bartakke Dawakhana Atulnagar (UHP)</i></div>`)[0];
+            popup_f68ae8e23d234008845fe65d5e908ea4.setContent(html_3f69dc716ce5491e8f600b29f11911db);
         
 
-        marker_c5230f38abe246a6a2d55c4c920ea918.bindPopup(popup_47b552bb60b04d0da9403a2c59cc70ae)
+        marker_2c128cb119d84f2583abb76302826cf0.bindPopup(popup_f68ae8e23d234008845fe65d5e908ea4)
         ;
 
         
     
     
-            var marker_fba38998a61b42d0934c93aef7d3c825 = L.marker(
+            var marker_827d2979730f4ff1947d65b889d99acf = L.marker(
                 [18.5296029, 73.87601540000001],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_ee287b262954443697d8b196e3572f8f = L.popup({"maxWidth": "100%"});
+        var popup_a016cb2b1005471ca19cb52f0acef38d = L.popup({"maxWidth": "100%"});
 
         
-            var html_b0f713edaf9c4084bd8bb15bababd3e4 = $(`<div id="html_b0f713edaf9c4084bd8bb15bababd3e4" style="width: 100.0%; height: 100.0%;"><i>Beds 50-Jahangir Hospital</i></div>`)[0];
-            popup_ee287b262954443697d8b196e3572f8f.setContent(html_b0f713edaf9c4084bd8bb15bababd3e4);
+            var html_a48c587d73784425be74fd0ee1c7c212 = $(`<div id="html_a48c587d73784425be74fd0ee1c7c212" style="width: 100.0%; height: 100.0%;"><i>Beds 50-Jahangir Hospital</i></div>`)[0];
+            popup_a016cb2b1005471ca19cb52f0acef38d.setContent(html_a48c587d73784425be74fd0ee1c7c212);
         
 
-        marker_fba38998a61b42d0934c93aef7d3c825.bindPopup(popup_ee287b262954443697d8b196e3572f8f)
+        marker_827d2979730f4ff1947d65b889d99acf.bindPopup(popup_a016cb2b1005471ca19cb52f0acef38d)
         ;
 
         
     
     
-            var marker_1ff9e23d86c543cbb43d695126ce2738 = L.marker(
+            var marker_bf8163eb67cf42929c76c0b7b42f9814 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_6eb3e1ab6a514d71876059f8affa67b3 = L.popup({"maxWidth": "100%"});
+        var popup_bdac568394994733a2fc631c1f99a82b = L.popup({"maxWidth": "100%"});
 
         
-            var html_059ad314f1814292989ead7da71c86cd = $(`<div id="html_059ad314f1814292989ead7da71c86cd" style="width: 100.0%; height: 100.0%;"><i>PMC-Tarachand Hospital</i></div>`)[0];
-            popup_6eb3e1ab6a514d71876059f8affa67b3.setContent(html_059ad314f1814292989ead7da71c86cd);
+            var html_70f6255f0d2b4077a457ce618b75381a = $(`<div id="html_70f6255f0d2b4077a457ce618b75381a" style="width: 100.0%; height: 100.0%;"><i>PMC-Tarachand Hospital</i></div>`)[0];
+            popup_bdac568394994733a2fc631c1f99a82b.setContent(html_70f6255f0d2b4077a457ce618b75381a);
         
 
-        marker_1ff9e23d86c543cbb43d695126ce2738.bindPopup(popup_6eb3e1ab6a514d71876059f8affa67b3)
+        marker_bf8163eb67cf42929c76c0b7b42f9814.bindPopup(popup_bdac568394994733a2fc631c1f99a82b)
         ;
 
         
     
     
-            var marker_ff9db29cdc864b30a5e87816cd589229 = L.marker(
+            var marker_e80c34d933f54a8a9d501ef34694472b = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_d87d33ef9c2649408b8c5b9f0c7e6e41 = L.popup({"maxWidth": "100%"});
+        var popup_6e0bbeb33e9544c2b60fecf773deb373 = L.popup({"maxWidth": "100%"});
 
         
-            var html_165b21ee0b2d4470b56e7fe7be308622 = $(`<div id="html_165b21ee0b2d4470b56e7fe7be308622" style="width: 100.0%; height: 100.0%;"><i>PCMC Moshi</i></div>`)[0];
-            popup_d87d33ef9c2649408b8c5b9f0c7e6e41.setContent(html_165b21ee0b2d4470b56e7fe7be308622);
+            var html_0efa6ff8023b4186a65bd91501c552d0 = $(`<div id="html_0efa6ff8023b4186a65bd91501c552d0" style="width: 100.0%; height: 100.0%;"><i>PCMC Moshi</i></div>`)[0];
+            popup_6e0bbeb33e9544c2b60fecf773deb373.setContent(html_0efa6ff8023b4186a65bd91501c552d0);
         
 
-        marker_ff9db29cdc864b30a5e87816cd589229.bindPopup(popup_d87d33ef9c2649408b8c5b9f0c7e6e41)
+        marker_e80c34d933f54a8a9d501ef34694472b.bindPopup(popup_6e0bbeb33e9544c2b60fecf773deb373)
         ;
 
         
     
     
-            var marker_865cc950f8dd443c841377ea270b3887 = L.marker(
+            var marker_5ab4639aca754fc48673d0c1183dad4e = L.marker(
                 [18.5045832, 73.83653100000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_6ccacb73e2464bde9f9dfca37b3b9ddf = L.popup({"maxWidth": "100%"});
+        var popup_f5401bd1cdb1453b90e415066d65ad52 = L.popup({"maxWidth": "100%"});
 
         
-            var html_92c77bc51fe74c5bb38f00243a7afd0a = $(`<div id="html_92c77bc51fe74c5bb38f00243a7afd0a" style="width: 100.0%; height: 100.0%;"><i>PMC-Aanandibai Gadgil Dispensery Dattawadi(UHP)</i></div>`)[0];
-            popup_6ccacb73e2464bde9f9dfca37b3b9ddf.setContent(html_92c77bc51fe74c5bb38f00243a7afd0a);
+            var html_cc24212c07ff485d9bb296733287511d = $(`<div id="html_cc24212c07ff485d9bb296733287511d" style="width: 100.0%; height: 100.0%;"><i>PMC-Aanandibai Gadgil Dispensery Dattawadi(UHP)</i></div>`)[0];
+            popup_f5401bd1cdb1453b90e415066d65ad52.setContent(html_cc24212c07ff485d9bb296733287511d);
         
 
-        marker_865cc950f8dd443c841377ea270b3887.bindPopup(popup_6ccacb73e2464bde9f9dfca37b3b9ddf)
+        marker_5ab4639aca754fc48673d0c1183dad4e.bindPopup(popup_f5401bd1cdb1453b90e415066d65ad52)
         ;
 
         
     
     
-            var marker_d50ef125891f4315ae571f1246e810fa = L.marker(
+            var marker_49f38e10eeb54329b64664449c99fe3e = L.marker(
                 [18.5335335, 73.8408697],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_51b1a088b7874903b40f68d442f70806 = L.popup({"maxWidth": "100%"});
+        var popup_9c774bf9ba8942a7a603ccb2d5966e5d = L.popup({"maxWidth": "100%"});
 
         
-            var html_36c5e1d1d2bc438284b3d6ed11475afe = $(`<div id="html_36c5e1d1d2bc438284b3d6ed11475afe" style="width: 100.0%; height: 100.0%;"><i>PMC-Police Welfare Center</i></div>`)[0];
-            popup_51b1a088b7874903b40f68d442f70806.setContent(html_36c5e1d1d2bc438284b3d6ed11475afe);
+            var html_d5ad36e9a13a4d2ea5ba0c5a26fd312e = $(`<div id="html_d5ad36e9a13a4d2ea5ba0c5a26fd312e" style="width: 100.0%; height: 100.0%;"><i>PMC-Police Welfare Center</i></div>`)[0];
+            popup_9c774bf9ba8942a7a603ccb2d5966e5d.setContent(html_d5ad36e9a13a4d2ea5ba0c5a26fd312e);
         
 
-        marker_d50ef125891f4315ae571f1246e810fa.bindPopup(popup_51b1a088b7874903b40f68d442f70806)
+        marker_49f38e10eeb54329b64664449c99fe3e.bindPopup(popup_9c774bf9ba8942a7a603ccb2d5966e5d)
         ;
 
         
     
     
-            var marker_c91e5846896946db9de8b500f7759f66 = L.marker(
+            var marker_c3f34d5102ca4b919eeae569d91ee87f = L.marker(
                 [18.5204303, 73.85674370000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_6176a26799474848b8f9961bb3df4dcd = L.popup({"maxWidth": "100%"});
+        var popup_49684dc888384e2c912a9ea1f22cb4aa = L.popup({"maxWidth": "100%"});
 
         
-            var html_21d282e6d4df4da5852932bddb44c760 = $(`<div id="html_21d282e6d4df4da5852932bddb44c760" style="width: 100.0%; height: 100.0%;"><i>PMC. Khrist. Rok Edward Poul Dawakhana Lohegaon Dispensary</i></div>`)[0];
-            popup_6176a26799474848b8f9961bb3df4dcd.setContent(html_21d282e6d4df4da5852932bddb44c760);
+            var html_64fbdf4a134f45cab28d21c8b723e5ef = $(`<div id="html_64fbdf4a134f45cab28d21c8b723e5ef" style="width: 100.0%; height: 100.0%;"><i>PMC. Khrist. Rok Edward Poul Dawakhana Lohegaon Dispensary</i></div>`)[0];
+            popup_49684dc888384e2c912a9ea1f22cb4aa.setContent(html_64fbdf4a134f45cab28d21c8b723e5ef);
         
 
-        marker_c91e5846896946db9de8b500f7759f66.bindPopup(popup_6176a26799474848b8f9961bb3df4dcd)
+        marker_c3f34d5102ca4b919eeae569d91ee87f.bindPopup(popup_49684dc888384e2c912a9ea1f22cb4aa)
         ;
 
         
     
     
-            var marker_02cb6958ebdd47afba30c149927378a6 = L.marker(
+            var marker_a1b70c7b820b453d960c336818257895 = L.marker(
                 [18.618866, 73.80040699999998],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_eede1765be99459ba919c2d7da63565b = L.popup({"maxWidth": "100%"});
+        var popup_c3af532cd0ee4d6e9462c7924e79d28a = L.popup({"maxWidth": "100%"});
 
         
-            var html_7d966d60709b4747825819c56c877a81 = $(`<div id="html_7d966d60709b4747825819c56c877a81" style="width: 100.0%; height: 100.0%;"><i>PCMC-Jijamata Hospital, Pimpri</i></div>`)[0];
-            popup_eede1765be99459ba919c2d7da63565b.setContent(html_7d966d60709b4747825819c56c877a81);
+            var html_575bf67ac1a240b99cbc7716d9a9da30 = $(`<div id="html_575bf67ac1a240b99cbc7716d9a9da30" style="width: 100.0%; height: 100.0%;"><i>PCMC-Jijamata Hospital, Pimpri</i></div>`)[0];
+            popup_c3af532cd0ee4d6e9462c7924e79d28a.setContent(html_575bf67ac1a240b99cbc7716d9a9da30);
         
 
-        marker_02cb6958ebdd47afba30c149927378a6.bindPopup(popup_eede1765be99459ba919c2d7da63565b)
+        marker_a1b70c7b820b453d960c336818257895.bindPopup(popup_c3af532cd0ee4d6e9462c7924e79d28a)
         ;
 
         
     
     
-            var marker_de8de80e98224526af1f1fc9dc7a56c6 = L.marker(
+            var marker_1ae96214436d480bad0ef8c7f1941638 = L.marker(
                 [18.572264, 73.79493000000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_cb340a5d7ef2454e94e0b6d3d9ee886a = L.popup({"maxWidth": "100%"});
+        var popup_cd73ca741a10431ab7d6534493e83f9a = L.popup({"maxWidth": "100%"});
 
         
-            var html_e2c471758f7e48dca4651fa723d76fa6 = $(`<div id="html_e2c471758f7e48dca4651fa723d76fa6" style="width: 100.0%; height: 100.0%;"><i>PCMC-Pimple Nilakh Dispensary</i></div>`)[0];
-            popup_cb340a5d7ef2454e94e0b6d3d9ee886a.setContent(html_e2c471758f7e48dca4651fa723d76fa6);
+            var html_bd09561adcbb4260a2f4f45d2796b0b6 = $(`<div id="html_bd09561adcbb4260a2f4f45d2796b0b6" style="width: 100.0%; height: 100.0%;"><i>PCMC-Pimple Nilakh Dispensary</i></div>`)[0];
+            popup_cd73ca741a10431ab7d6534493e83f9a.setContent(html_bd09561adcbb4260a2f4f45d2796b0b6);
         
 
-        marker_de8de80e98224526af1f1fc9dc7a56c6.bindPopup(popup_cb340a5d7ef2454e94e0b6d3d9ee886a)
+        marker_1ae96214436d480bad0ef8c7f1941638.bindPopup(popup_cd73ca741a10431ab7d6534493e83f9a)
         ;
 
         
     
     
-            var marker_9e1b6353b1ee4193a7abbc3c73ee0cd2 = L.marker(
+            var marker_a6a486c9f9b74a5faa9044b765944871 = L.marker(
                 [18.657442, 73.80073399999998],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_aa34923b824d4aaa84a5d99cb7f0a49c = L.popup({"maxWidth": "100%"});
+        var popup_91045fb21f504567bc7b0294655b40d2 = L.popup({"maxWidth": "100%"});
 
         
-            var html_fa490726ab114ff88e74ceedf7cf4ab0 = $(`<div id="html_fa490726ab114ff88e74ceedf7cf4ab0" style="width: 100.0%; height: 100.0%;"><i>PCMC-Duttanagar Dispensary</i></div>`)[0];
-            popup_aa34923b824d4aaa84a5d99cb7f0a49c.setContent(html_fa490726ab114ff88e74ceedf7cf4ab0);
+            var html_216d0d6ca7fc483cbf6209b094477071 = $(`<div id="html_216d0d6ca7fc483cbf6209b094477071" style="width: 100.0%; height: 100.0%;"><i>PCMC-Duttanagar Dispensary</i></div>`)[0];
+            popup_91045fb21f504567bc7b0294655b40d2.setContent(html_216d0d6ca7fc483cbf6209b094477071);
         
 
-        marker_9e1b6353b1ee4193a7abbc3c73ee0cd2.bindPopup(popup_aa34923b824d4aaa84a5d99cb7f0a49c)
+        marker_a6a486c9f9b74a5faa9044b765944871.bindPopup(popup_91045fb21f504567bc7b0294655b40d2)
         ;
 
         
     
     
-            var marker_fe3621ea4c6e4473aebb7699e86a860e = L.marker(
+            var marker_9a13266aca634050b52a0ee9b150a774 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_3c2c296288e44ac9a0a08f58181a5ac2 = L.popup({"maxWidth": "100%"});
+        var popup_2d48a8f7d9964dfaa6fecd1f09006eec = L.popup({"maxWidth": "100%"});
 
         
-            var html_b280c96bde794ebcad0eacfcb5699bc3 = $(`<div id="html_b280c96bde794ebcad0eacfcb5699bc3" style="width: 100.0%; height: 100.0%;"><i>PMC Sutika Seva Mandir (N.G.O.) UFWC</i></div>`)[0];
-            popup_3c2c296288e44ac9a0a08f58181a5ac2.setContent(html_b280c96bde794ebcad0eacfcb5699bc3);
+            var html_4213aff2dd964a0d83bf25874496cedb = $(`<div id="html_4213aff2dd964a0d83bf25874496cedb" style="width: 100.0%; height: 100.0%;"><i>PMC Sutika Seva Mandir (N.G.O.) UFWC</i></div>`)[0];
+            popup_2d48a8f7d9964dfaa6fecd1f09006eec.setContent(html_4213aff2dd964a0d83bf25874496cedb);
         
 
-        marker_fe3621ea4c6e4473aebb7699e86a860e.bindPopup(popup_3c2c296288e44ac9a0a08f58181a5ac2)
+        marker_9a13266aca634050b52a0ee9b150a774.bindPopup(popup_2d48a8f7d9964dfaa6fecd1f09006eec)
         ;
 
         
     
     
-            var marker_cc59f3f99f614896994453d58b9a4751 = L.marker(
+            var marker_2f7ac113edca4df49c8928a6b3ae921f = L.marker(
                 [18.5204303, 73.8567436],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_09e856314622494a9777486274993772 = L.popup({"maxWidth": "100%"});
+        var popup_8002287268424ff6b05a798b40c7bc88 = L.popup({"maxWidth": "100%"});
 
         
-            var html_77a9cf4039f3424ab9d8293325c2dcfd = $(`<div id="html_77a9cf4039f3424ab9d8293325c2dcfd" style="width: 100.0%; height: 100.0%;"><i>PMC ARMED FORCE MEDICAL COLLEGE(AFMC)</i></div>`)[0];
-            popup_09e856314622494a9777486274993772.setContent(html_77a9cf4039f3424ab9d8293325c2dcfd);
+            var html_57d47693e72442048a7e1c2e6fd21bb2 = $(`<div id="html_57d47693e72442048a7e1c2e6fd21bb2" style="width: 100.0%; height: 100.0%;"><i>PMC ARMED FORCE MEDICAL COLLEGE(AFMC)</i></div>`)[0];
+            popup_8002287268424ff6b05a798b40c7bc88.setContent(html_57d47693e72442048a7e1c2e6fd21bb2);
         
 
-        marker_cc59f3f99f614896994453d58b9a4751.bindPopup(popup_09e856314622494a9777486274993772)
+        marker_2f7ac113edca4df49c8928a6b3ae921f.bindPopup(popup_8002287268424ff6b05a798b40c7bc88)
         ;
 
         
     
     
-            var marker_abed6888dded44779b53081af5c10cec = L.marker(
+            var marker_c240751536d141d0a61ae0b46e4b6e0b = L.marker(
                 [18.625689, 73.784673],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_96d1f73c84ec4db2b0d8790eff65020a = L.popup({"maxWidth": "100%"});
+        var popup_e97437ac7e014cc08610c5f512e595a0 = L.popup({"maxWidth": "100%"});
 
         
-            var html_1a72befc2c7d4204b99e13eff1618e94 = $(`<div id="html_1a72befc2c7d4204b99e13eff1618e94" style="width: 100.0%; height: 100.0%;"><i>PCMC-Talera Hospital, Chinchwad</i></div>`)[0];
-            popup_96d1f73c84ec4db2b0d8790eff65020a.setContent(html_1a72befc2c7d4204b99e13eff1618e94);
+            var html_93ccb99a7b284948a8f21b87581539dc = $(`<div id="html_93ccb99a7b284948a8f21b87581539dc" style="width: 100.0%; height: 100.0%;"><i>PCMC-Talera Hospital, Chinchwad</i></div>`)[0];
+            popup_e97437ac7e014cc08610c5f512e595a0.setContent(html_93ccb99a7b284948a8f21b87581539dc);
         
 
-        marker_abed6888dded44779b53081af5c10cec.bindPopup(popup_96d1f73c84ec4db2b0d8790eff65020a)
+        marker_c240751536d141d0a61ae0b46e4b6e0b.bindPopup(popup_e97437ac7e014cc08610c5f512e595a0)
         ;
 
         
     
     
-            var marker_3294be513cf14410933d696f0a8600f4 = L.marker(
+            var marker_2abad562e2c6480681a8314409cd5791 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_5e791b147a9b435cbfe498f05464d88b = L.popup({"maxWidth": "100%"});
+        var popup_6062b255701e400d9b316c6a0a0e6eca = L.popup({"maxWidth": "100%"});
 
         
-            var html_03dbb1e7d1e9402e9bdd023ef0f3485f = $(`<div id="html_03dbb1e7d1e9402e9bdd023ef0f3485f" style="width: 100.0%; height: 100.0%;"><i>PCMC Dighi</i></div>`)[0];
-            popup_5e791b147a9b435cbfe498f05464d88b.setContent(html_03dbb1e7d1e9402e9bdd023ef0f3485f);
+            var html_f7f96fa0b42e4cb79fa20e6d29dbd52c = $(`<div id="html_f7f96fa0b42e4cb79fa20e6d29dbd52c" style="width: 100.0%; height: 100.0%;"><i>PCMC Dighi</i></div>`)[0];
+            popup_6062b255701e400d9b316c6a0a0e6eca.setContent(html_f7f96fa0b42e4cb79fa20e6d29dbd52c);
         
 
-        marker_3294be513cf14410933d696f0a8600f4.bindPopup(popup_5e791b147a9b435cbfe498f05464d88b)
+        marker_2abad562e2c6480681a8314409cd5791.bindPopup(popup_6062b255701e400d9b316c6a0a0e6eca)
         ;
 
         
     
     
-            var marker_300cc9bd57cc413bbe212939c5aedb24 = L.marker(
+            var marker_2380eb61aa3449dda9627a02e03eb983 = L.marker(
                 [18.52043, 73.85674399999998],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_c06181f89c124f6f8afb82616cc5525a = L.popup({"maxWidth": "100%"});
+        var popup_031088c43b2f4efdba9479d4f3ffc5a1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3f1dd4b32b494a71928170844aba2a49 = $(`<div id="html_3f1dd4b32b494a71928170844aba2a49" style="width: 100.0%; height: 100.0%;"><i>PMC Pune Mahila Mandal (N. G. O.)</i></div>`)[0];
-            popup_c06181f89c124f6f8afb82616cc5525a.setContent(html_3f1dd4b32b494a71928170844aba2a49);
+            var html_1368aa399e0644d4bea8c33dab410a96 = $(`<div id="html_1368aa399e0644d4bea8c33dab410a96" style="width: 100.0%; height: 100.0%;"><i>PMC Pune Mahila Mandal (N. G. O.)</i></div>`)[0];
+            popup_031088c43b2f4efdba9479d4f3ffc5a1.setContent(html_1368aa399e0644d4bea8c33dab410a96);
         
 
-        marker_300cc9bd57cc413bbe212939c5aedb24.bindPopup(popup_c06181f89c124f6f8afb82616cc5525a)
+        marker_2380eb61aa3449dda9627a02e03eb983.bindPopup(popup_031088c43b2f4efdba9479d4f3ffc5a1)
         ;
 
         
     
     
-            var marker_c59d8850214a4d4aa4526c05622dbb18 = L.marker(
+            var marker_fc75f96bb418494990e9682d52c32bdc = L.marker(
                 [18.5089197, 73.92602609999999],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_9bf664eeacc048d2b6f7fcf77bd2b223 = L.popup({"maxWidth": "100%"});
+        var popup_73cfee6ab5fe44ddbb8e2a9593e8bc82 = L.popup({"maxWidth": "100%"});
 
         
-            var html_e0b97aed121a4f2a95411dab4ba34171 = $(`<div id="html_e0b97aed121a4f2a95411dab4ba34171" style="width: 100.0%; height: 100.0%;"><i>Bhalerao Hospital</i></div>`)[0];
-            popup_9bf664eeacc048d2b6f7fcf77bd2b223.setContent(html_e0b97aed121a4f2a95411dab4ba34171);
+            var html_ed27bac78383433cabb24019bc2b3f30 = $(`<div id="html_ed27bac78383433cabb24019bc2b3f30" style="width: 100.0%; height: 100.0%;"><i>Bhalerao Hospital</i></div>`)[0];
+            popup_73cfee6ab5fe44ddbb8e2a9593e8bc82.setContent(html_ed27bac78383433cabb24019bc2b3f30);
         
 
-        marker_c59d8850214a4d4aa4526c05622dbb18.bindPopup(popup_9bf664eeacc048d2b6f7fcf77bd2b223)
+        marker_fc75f96bb418494990e9682d52c32bdc.bindPopup(popup_73cfee6ab5fe44ddbb8e2a9593e8bc82)
         ;
 
         
     
     
-            var marker_d5897f23eae6412bbd988182a3dfb65e = L.marker(
+            var marker_bce22b701ae245a093a565611bce3adc = L.marker(
                 [18.485447, 73.954665],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_35c68363c6684c92be591ca6683e52a4 = L.popup({"maxWidth": "100%"});
+        var popup_bf9d82d4295a409f989069e089149712 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a115771a849743f4a3d733d90140b8d5 = $(`<div id="html_a115771a849743f4a3d733d90140b8d5" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Annasaheb Magar Maternity Home</i></div>`)[0];
-            popup_35c68363c6684c92be591ca6683e52a4.setContent(html_a115771a849743f4a3d733d90140b8d5);
+            var html_967c0ba07dc74fd79e51fb5c3d1e37d3 = $(`<div id="html_967c0ba07dc74fd79e51fb5c3d1e37d3" style="width: 100.0%; height: 100.0%;"><i>PMC - Late. Annasaheb Magar Maternity Home</i></div>`)[0];
+            popup_bf9d82d4295a409f989069e089149712.setContent(html_967c0ba07dc74fd79e51fb5c3d1e37d3);
         
 
-        marker_d5897f23eae6412bbd988182a3dfb65e.bindPopup(popup_35c68363c6684c92be591ca6683e52a4)
+        marker_bce22b701ae245a093a565611bce3adc.bindPopup(popup_bf9d82d4295a409f989069e089149712)
         ;
 
         
     
     
-            var marker_504fffe9d70143a6923d83dc22ddb20f = L.marker(
+            var marker_de88fe6d412940e490209f0640c31a36 = L.marker(
                 [18.518329, 73.8406429],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_d6a15a462e67442cbf91d1f036f38552 = L.popup({"maxWidth": "100%"});
+        var popup_cbe6c4b2d62b4ad1a2f60a2631c6b8d2 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0f1f94b2ae94443695e377955a4fd402 = $(`<div id="html_0f1f94b2ae94443695e377955a4fd402" style="width: 100.0%; height: 100.0%;"><i>Gupte Hospital 50 Bed</i></div>`)[0];
-            popup_d6a15a462e67442cbf91d1f036f38552.setContent(html_0f1f94b2ae94443695e377955a4fd402);
+            var html_4280dd04fcf044aebc45b059c7a04af1 = $(`<div id="html_4280dd04fcf044aebc45b059c7a04af1" style="width: 100.0%; height: 100.0%;"><i>Gupte Hospital 50 Bed</i></div>`)[0];
+            popup_cbe6c4b2d62b4ad1a2f60a2631c6b8d2.setContent(html_4280dd04fcf044aebc45b059c7a04af1);
         
 
-        marker_504fffe9d70143a6923d83dc22ddb20f.bindPopup(popup_d6a15a462e67442cbf91d1f036f38552)
+        marker_de88fe6d412940e490209f0640c31a36.bindPopup(popup_cbe6c4b2d62b4ad1a2f60a2631c6b8d2)
         ;
 
         
     
     
-            var marker_bdfc15b114d848358d63c74b5f338eaa = L.marker(
+            var marker_ab2b9f726a3d4b9ca7b591c7825b20c8 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_8bf7e13712ab4b85bb28b6dc50a0a75f = L.popup({"maxWidth": "100%"});
+        var popup_1743c0f7d5244518918814286e4f3474 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9f332c6891c345039fcafc42e53b1b8a = $(`<div id="html_9f332c6891c345039fcafc42e53b1b8a" style="width: 100.0%; height: 100.0%;"><i>PCMC Chikhali</i></div>`)[0];
-            popup_8bf7e13712ab4b85bb28b6dc50a0a75f.setContent(html_9f332c6891c345039fcafc42e53b1b8a);
+            var html_0796b253e42642ca88ede573616e5a71 = $(`<div id="html_0796b253e42642ca88ede573616e5a71" style="width: 100.0%; height: 100.0%;"><i>PCMC Chikhali</i></div>`)[0];
+            popup_1743c0f7d5244518918814286e4f3474.setContent(html_0796b253e42642ca88ede573616e5a71);
         
 
-        marker_bdfc15b114d848358d63c74b5f338eaa.bindPopup(popup_8bf7e13712ab4b85bb28b6dc50a0a75f)
+        marker_ab2b9f726a3d4b9ca7b591c7825b20c8.bindPopup(popup_1743c0f7d5244518918814286e4f3474)
         ;
 
         
     
     
-            var marker_b612f42e018c4e8ea243bc033ae0df26 = L.marker(
+            var marker_9bb8171ea82f4bc1b640c04fc86666fe = L.marker(
                 [18.5611, 73.84536],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_6db34489df594fa2a6fb744d3376213c = L.popup({"maxWidth": "100%"});
+        var popup_8cb86aff35f04e4aa825bf25352bcac8 = L.popup({"maxWidth": "100%"});
 
         
-            var html_1c81d78eda05448db4d73b23ddac19d9 = $(`<div id="html_1c81d78eda05448db4d73b23ddac19d9" style="width: 100.0%; height: 100.0%;"><i>PMC - Late Sanjay Gandhi Maternity Hospital, Bopodi</i></div>`)[0];
-            popup_6db34489df594fa2a6fb744d3376213c.setContent(html_1c81d78eda05448db4d73b23ddac19d9);
+            var html_a349dbe586b14d8482e9c7155cf9fc3a = $(`<div id="html_a349dbe586b14d8482e9c7155cf9fc3a" style="width: 100.0%; height: 100.0%;"><i>PMC - Late Sanjay Gandhi Maternity Hospital, Bopodi</i></div>`)[0];
+            popup_8cb86aff35f04e4aa825bf25352bcac8.setContent(html_a349dbe586b14d8482e9c7155cf9fc3a);
         
 
-        marker_b612f42e018c4e8ea243bc033ae0df26.bindPopup(popup_6db34489df594fa2a6fb744d3376213c)
+        marker_9bb8171ea82f4bc1b640c04fc86666fe.bindPopup(popup_8cb86aff35f04e4aa825bf25352bcac8)
         ;
 
         
     
     
-            var marker_e52ac30c909243288a017e3837214208 = L.marker(
+            var marker_c47eb8ad263546708f31fb95f3258f49 = L.marker(
                 [18.5043882, 73.9199565],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_1331b013af244132b61f5a54557ba84e = L.popup({"maxWidth": "100%"});
+        var popup_00d56b71eb93438a81b40f622672b5ac = L.popup({"maxWidth": "100%"});
 
         
-            var html_1bf3533ba7ce4d8c888ef2276ec7b920 = $(`<div id="html_1bf3533ba7ce4d8c888ef2276ec7b920" style="width: 100.0%; height: 100.0%;"><i>Shraddha Hospital 50 Beds</i></div>`)[0];
-            popup_1331b013af244132b61f5a54557ba84e.setContent(html_1bf3533ba7ce4d8c888ef2276ec7b920);
+            var html_2aab396d02ae4ada9461f31369ea63d6 = $(`<div id="html_2aab396d02ae4ada9461f31369ea63d6" style="width: 100.0%; height: 100.0%;"><i>Shraddha Hospital 50 Beds</i></div>`)[0];
+            popup_00d56b71eb93438a81b40f622672b5ac.setContent(html_2aab396d02ae4ada9461f31369ea63d6);
         
 
-        marker_e52ac30c909243288a017e3837214208.bindPopup(popup_1331b013af244132b61f5a54557ba84e)
+        marker_c47eb8ad263546708f31fb95f3258f49.bindPopup(popup_00d56b71eb93438a81b40f622672b5ac)
         ;
 
         
     
     
-            var marker_50b477ebd4e24c09941ae2f17e02c7da = L.marker(
+            var marker_c5cce81595424d5b9ccba325010f0418 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_acc97bf044e94df79643fdfaa9ef377f = L.popup({"maxWidth": "100%"});
+        var popup_ddf4a415971842efa83ef796bb527a41 = L.popup({"maxWidth": "100%"});
 
         
-            var html_f67622f3ad4c428f8680c0e36150fe74 = $(`<div id="html_f67622f3ad4c428f8680c0e36150fe74" style="width: 100.0%; height: 100.0%;"><i>PCMC Bhosari</i></div>`)[0];
-            popup_acc97bf044e94df79643fdfaa9ef377f.setContent(html_f67622f3ad4c428f8680c0e36150fe74);
+            var html_7470232dd1204e5f96168562e22c6fba = $(`<div id="html_7470232dd1204e5f96168562e22c6fba" style="width: 100.0%; height: 100.0%;"><i>PCMC Bhosari</i></div>`)[0];
+            popup_ddf4a415971842efa83ef796bb527a41.setContent(html_7470232dd1204e5f96168562e22c6fba);
         
 
-        marker_50b477ebd4e24c09941ae2f17e02c7da.bindPopup(popup_acc97bf044e94df79643fdfaa9ef377f)
+        marker_c5cce81595424d5b9ccba325010f0418.bindPopup(popup_ddf4a415971842efa83ef796bb527a41)
         ;
 
         
     
     
-            var marker_ad47d3304f16407b8569587468523a87 = L.marker(
+            var marker_104918c45a32485f9af533fe1d28e85d = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_b59dc6e785284df1916cab9e5055011a = L.popup({"maxWidth": "100%"});
+        var popup_6baed489ef7e44f686741006f9335130 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a114c7990c9c43f8ba0392f38a35aeca = $(`<div id="html_a114c7990c9c43f8ba0392f38a35aeca" style="width: 100.0%; height: 100.0%;"><i>Jahangir Hospital</i></div>`)[0];
-            popup_b59dc6e785284df1916cab9e5055011a.setContent(html_a114c7990c9c43f8ba0392f38a35aeca);
+            var html_21a2f7a2a391411c9ebc4818e155496b = $(`<div id="html_21a2f7a2a391411c9ebc4818e155496b" style="width: 100.0%; height: 100.0%;"><i>Jahangir Hospital</i></div>`)[0];
+            popup_6baed489ef7e44f686741006f9335130.setContent(html_21a2f7a2a391411c9ebc4818e155496b);
         
 
-        marker_ad47d3304f16407b8569587468523a87.bindPopup(popup_b59dc6e785284df1916cab9e5055011a)
+        marker_104918c45a32485f9af533fe1d28e85d.bindPopup(popup_6baed489ef7e44f686741006f9335130)
         ;
 
         
     
     
-            var marker_0cacb7b8d0c74e6d9e899adb04b70256 = L.marker(
+            var marker_3592abd50405477cb4aa7dbbb0cfcb9c = L.marker(
                 [18.6281, 73.81102800000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_5298ffa1e13349a3a0acfe94cf8a3465 = L.popup({"maxWidth": "100%"});
+        var popup_1f3207ceef034181920d15c01851c6f1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_fe82251e2e1b4ba08a2b2c11a18873cb = $(`<div id="html_fe82251e2e1b4ba08a2b2c11a18873cb" style="width: 100.0%; height: 100.0%;"><i>PCMC-Kharalwadi Dispensary</i></div>`)[0];
-            popup_5298ffa1e13349a3a0acfe94cf8a3465.setContent(html_fe82251e2e1b4ba08a2b2c11a18873cb);
+            var html_ea22bb2482f14921b72c21d4a825e95e = $(`<div id="html_ea22bb2482f14921b72c21d4a825e95e" style="width: 100.0%; height: 100.0%;"><i>PCMC-Kharalwadi Dispensary</i></div>`)[0];
+            popup_1f3207ceef034181920d15c01851c6f1.setContent(html_ea22bb2482f14921b72c21d4a825e95e);
         
 
-        marker_0cacb7b8d0c74e6d9e899adb04b70256.bindPopup(popup_5298ffa1e13349a3a0acfe94cf8a3465)
+        marker_3592abd50405477cb4aa7dbbb0cfcb9c.bindPopup(popup_1f3207ceef034181920d15c01851c6f1)
         ;
 
         
     
     
-            var marker_4843e9e68c7f40e4b4aef626be453581 = L.marker(
+            var marker_71a883ff139d4e78951356437fce12d7 = L.marker(
                 [18.595336, 73.805262],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_62a2fe3e9e5c45d0bad4305dd63f938c = L.popup({"maxWidth": "100%"});
+        var popup_264412265c2c427cbc3d4d0881ad167a = L.popup({"maxWidth": "100%"});
 
         
-            var html_30839a500c8d44d2bc4f08bee9f70d3a = $(`<div id="html_30839a500c8d44d2bc4f08bee9f70d3a" style="width: 100.0%; height: 100.0%;"><i>PCMC-Pimple Soudagar Dispensary</i></div>`)[0];
-            popup_62a2fe3e9e5c45d0bad4305dd63f938c.setContent(html_30839a500c8d44d2bc4f08bee9f70d3a);
+            var html_08e19b035e4b402fa53a2b63e3ca656e = $(`<div id="html_08e19b035e4b402fa53a2b63e3ca656e" style="width: 100.0%; height: 100.0%;"><i>PCMC-Pimple Soudagar Dispensary</i></div>`)[0];
+            popup_264412265c2c427cbc3d4d0881ad167a.setContent(html_08e19b035e4b402fa53a2b63e3ca656e);
         
 
-        marker_4843e9e68c7f40e4b4aef626be453581.bindPopup(popup_62a2fe3e9e5c45d0bad4305dd63f938c)
+        marker_71a883ff139d4e78951356437fce12d7.bindPopup(popup_264412265c2c427cbc3d4d0881ad167a)
         ;
 
         
     
     
-            var marker_adf29e98bca34375aa02bbeb3c3f6481 = L.marker(
+            var marker_5d41a6c89c074f20a03f731dda123c81 = L.marker(
                 [18.512964, 73.878911],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_1daaa2953c9744788a611a426cda5110 = L.popup({"maxWidth": "100%"});
+        var popup_8e0e0e04bf744c848bd329ac7298c223 = L.popup({"maxWidth": "100%"});
 
         
-            var html_640166a69cc8414bb25e8852b6acb615 = $(`<div id="html_640166a69cc8414bb25e8852b6acb615" style="width: 100.0%; height: 100.0%;"><i>PMC - Dr. Homi J Bhabha Maternity Home</i></div>`)[0];
-            popup_1daaa2953c9744788a611a426cda5110.setContent(html_640166a69cc8414bb25e8852b6acb615);
+            var html_b66921169dfc4b898de10978dd764500 = $(`<div id="html_b66921169dfc4b898de10978dd764500" style="width: 100.0%; height: 100.0%;"><i>PMC - Dr. Homi J Bhabha Maternity Home</i></div>`)[0];
+            popup_8e0e0e04bf744c848bd329ac7298c223.setContent(html_b66921169dfc4b898de10978dd764500);
         
 
-        marker_adf29e98bca34375aa02bbeb3c3f6481.bindPopup(popup_1daaa2953c9744788a611a426cda5110)
+        marker_5d41a6c89c074f20a03f731dda123c81.bindPopup(popup_8e0e0e04bf744c848bd329ac7298c223)
         ;
 
         
     
     
-            var marker_4012abfb8a70440b8fa5e7cb675c6956 = L.marker(
+            var marker_19751345490f4d15a6f6693c19428261 = L.marker(
                 [18.5021416, 73.81343709999999],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_7b66b77d2e8647cd851185abfe3b0e6a = L.popup({"maxWidth": "100%"});
+        var popup_6206cdf9f3854c8ea7f637fbee6347f5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_37976c746eaa4b559af7046795c35c6e = $(`<div id="html_37976c746eaa4b559af7046795c35c6e" style="width: 100.0%; height: 100.0%;"><i>Subodh Hospital</i></div>`)[0];
-            popup_7b66b77d2e8647cd851185abfe3b0e6a.setContent(html_37976c746eaa4b559af7046795c35c6e);
+            var html_cc02d3ee833b407a937f3e977922e65a = $(`<div id="html_cc02d3ee833b407a937f3e977922e65a" style="width: 100.0%; height: 100.0%;"><i>Subodh Hospital</i></div>`)[0];
+            popup_6206cdf9f3854c8ea7f637fbee6347f5.setContent(html_cc02d3ee833b407a937f3e977922e65a);
         
 
-        marker_4012abfb8a70440b8fa5e7cb675c6956.bindPopup(popup_7b66b77d2e8647cd851185abfe3b0e6a)
+        marker_19751345490f4d15a6f6693c19428261.bindPopup(popup_6206cdf9f3854c8ea7f637fbee6347f5)
         ;
 
         
     
     
-            var marker_11990730037542e5b60060093cb68cce = L.marker(
+            var marker_351fb0a74c48427fb72fe6e25e2d3e0c = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_a679c8dca6564466b9e63b8d6a155900 = L.popup({"maxWidth": "100%"});
+        var popup_a1c429e653b94f87802fad1d46bf75db = L.popup({"maxWidth": "100%"});
 
         
-            var html_f958ecb6dafe4685af31e7eb07a06a6c = $(`<div id="html_f958ecb6dafe4685af31e7eb07a06a6c" style="width: 100.0%; height: 100.0%;"><i>PMC Yerwada Hospital</i></div>`)[0];
-            popup_a679c8dca6564466b9e63b8d6a155900.setContent(html_f958ecb6dafe4685af31e7eb07a06a6c);
+            var html_76f971c2754c4f86a5cf25647e4c1f58 = $(`<div id="html_76f971c2754c4f86a5cf25647e4c1f58" style="width: 100.0%; height: 100.0%;"><i>PMC Yerwada Hospital</i></div>`)[0];
+            popup_a1c429e653b94f87802fad1d46bf75db.setContent(html_76f971c2754c4f86a5cf25647e4c1f58);
         
 
-        marker_11990730037542e5b60060093cb68cce.bindPopup(popup_a679c8dca6564466b9e63b8d6a155900)
+        marker_351fb0a74c48427fb72fe6e25e2d3e0c.bindPopup(popup_a1c429e653b94f87802fad1d46bf75db)
         ;
 
         
     
     
-            var marker_dec6d91183334df0b6da37e3ea66c614 = L.marker(
+            var marker_45b3587b716949c19457c6cda4a9538e = L.marker(
                 [18.52043, 73.85674399999998],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_85d72ff086924df5b24ee9dd4ecce22d = L.popup({"maxWidth": "100%"});
+        var popup_4ea823c66f8a4ee38b7479c5c069ac00 = L.popup({"maxWidth": "100%"});
 
         
-            var html_32c0c25ce1454580aa43051875ea0be3 = $(`<div id="html_32c0c25ce1454580aa43051875ea0be3" style="width: 100.0%; height: 100.0%;"><i>PMC Sasoon Hospital (Govt.)</i></div>`)[0];
-            popup_85d72ff086924df5b24ee9dd4ecce22d.setContent(html_32c0c25ce1454580aa43051875ea0be3);
+            var html_f10ea96ca6264944afa62a884c8ce03a = $(`<div id="html_f10ea96ca6264944afa62a884c8ce03a" style="width: 100.0%; height: 100.0%;"><i>PMC Sasoon Hospital (Govt.)</i></div>`)[0];
+            popup_4ea823c66f8a4ee38b7479c5c069ac00.setContent(html_f10ea96ca6264944afa62a884c8ce03a);
         
 
-        marker_dec6d91183334df0b6da37e3ea66c614.bindPopup(popup_85d72ff086924df5b24ee9dd4ecce22d)
+        marker_45b3587b716949c19457c6cda4a9538e.bindPopup(popup_4ea823c66f8a4ee38b7479c5c069ac00)
         ;
 
         
     
     
-            var marker_285d08aa029046d3a86da2aeb87f5d52 = L.marker(
+            var marker_7f928e46072f475498ef0a5feb917f2e = L.marker(
                 [18.609756, 73.80099200000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_7b2a90e270bf4e5990d16123f0d130d2 = L.popup({"maxWidth": "100%"});
+        var popup_de66c7af09744dad8c59ec549aba1a31 = L.popup({"maxWidth": "100%"});
 
         
-            var html_7aeb9c875e154a079ee34a96ec4f8e35 = $(`<div id="html_7aeb9c875e154a079ee34a96ec4f8e35" style="width: 100.0%; height: 100.0%;"><i>PCMC-Pimpri Waghere Dispensary</i></div>`)[0];
-            popup_7b2a90e270bf4e5990d16123f0d130d2.setContent(html_7aeb9c875e154a079ee34a96ec4f8e35);
+            var html_97a50d79ff34402290c59890797929c7 = $(`<div id="html_97a50d79ff34402290c59890797929c7" style="width: 100.0%; height: 100.0%;"><i>PCMC-Pimpri Waghere Dispensary</i></div>`)[0];
+            popup_de66c7af09744dad8c59ec549aba1a31.setContent(html_97a50d79ff34402290c59890797929c7);
         
 
-        marker_285d08aa029046d3a86da2aeb87f5d52.bindPopup(popup_7b2a90e270bf4e5990d16123f0d130d2)
+        marker_7f928e46072f475498ef0a5feb917f2e.bindPopup(popup_de66c7af09744dad8c59ec549aba1a31)
         ;
 
         
     
     
-            var marker_b4540f029ce643f397c1ade7dd19cb69 = L.marker(
+            var marker_b05dfc3f490343159f3bfff492d1fb02 = L.marker(
                 [18.631769, 73.82204200000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_9aed17ff59d34779bbde9b5f3b1a8504 = L.popup({"maxWidth": "100%"});
+        var popup_005b842df6ed44fcbcd495d4be5ce3bb = L.popup({"maxWidth": "100%"});
 
         
-            var html_bc0386cf824a47158f3c18aee40c955b = $(`<div id="html_bc0386cf824a47158f3c18aee40c955b" style="width: 100.0%; height: 100.0%;"><i>PCMC-Neharunagar Dispensary</i></div>`)[0];
-            popup_9aed17ff59d34779bbde9b5f3b1a8504.setContent(html_bc0386cf824a47158f3c18aee40c955b);
+            var html_4253a1decfaf4d3d8f8f3f63ad28cae9 = $(`<div id="html_4253a1decfaf4d3d8f8f3f63ad28cae9" style="width: 100.0%; height: 100.0%;"><i>PCMC-Neharunagar Dispensary</i></div>`)[0];
+            popup_005b842df6ed44fcbcd495d4be5ce3bb.setContent(html_4253a1decfaf4d3d8f8f3f63ad28cae9);
         
 
-        marker_b4540f029ce643f397c1ade7dd19cb69.bindPopup(popup_9aed17ff59d34779bbde9b5f3b1a8504)
+        marker_b05dfc3f490343159f3bfff492d1fb02.bindPopup(popup_005b842df6ed44fcbcd495d4be5ce3bb)
         ;
 
         
     
     
-            var marker_1aeb9c9e178045298cfb7af18f1f5b6d = L.marker(
+            var marker_aeca2a2dde104041a481b29f89f90fef = L.marker(
                 [18.621672, 73.820861],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_9d1c574ff8744ae9a0bb0b2ca3cc94b6 = L.popup({"maxWidth": "100%"});
+        var popup_cdf4daf647414ed2805f3184e3342ae5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3bb41d58c8d3407a9617f068bf890242 = $(`<div id="html_3bb41d58c8d3407a9617f068bf890242" style="width: 100.0%; height: 100.0%;"><i>PCMC-Yashwantrao Chavan Memorial Hospital</i></div>`)[0];
-            popup_9d1c574ff8744ae9a0bb0b2ca3cc94b6.setContent(html_3bb41d58c8d3407a9617f068bf890242);
+            var html_ce269a51ea1e42b6bb7e028e9506690d = $(`<div id="html_ce269a51ea1e42b6bb7e028e9506690d" style="width: 100.0%; height: 100.0%;"><i>PCMC-Yashwantrao Chavan Memorial Hospital</i></div>`)[0];
+            popup_cdf4daf647414ed2805f3184e3342ae5.setContent(html_ce269a51ea1e42b6bb7e028e9506690d);
         
 
-        marker_1aeb9c9e178045298cfb7af18f1f5b6d.bindPopup(popup_9d1c574ff8744ae9a0bb0b2ca3cc94b6)
+        marker_aeca2a2dde104041a481b29f89f90fef.bindPopup(popup_cdf4daf647414ed2805f3184e3342ae5)
         ;
 
         
     
     
-            var marker_37092a25b7c047ed8b3663d66cf02137 = L.marker(
+            var marker_22665c1277db400c8fe501b1ad0684f4 = L.marker(
                 [18.523955, 73.854182],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_3de58d19c66e46c3975447c39be43ab4 = L.popup({"maxWidth": "100%"});
+        var popup_223f0c87834c448bb87b460244905cb0 = L.popup({"maxWidth": "100%"});
 
         
-            var html_237d416d6f5d4ba0b6eadce15e737fb5 = $(`<div id="html_237d416d6f5d4ba0b6eadce15e737fb5" style="width: 100.0%; height: 100.0%;"><i>Bhavani Peth Nagari Aarogya Kendra</i></div>`)[0];
-            popup_3de58d19c66e46c3975447c39be43ab4.setContent(html_237d416d6f5d4ba0b6eadce15e737fb5);
+            var html_e1456eec59664970a05141fecfef3e34 = $(`<div id="html_e1456eec59664970a05141fecfef3e34" style="width: 100.0%; height: 100.0%;"><i>Bhavani Peth Nagari Aarogya Kendra</i></div>`)[0];
+            popup_223f0c87834c448bb87b460244905cb0.setContent(html_e1456eec59664970a05141fecfef3e34);
         
 
-        marker_37092a25b7c047ed8b3663d66cf02137.bindPopup(popup_3de58d19c66e46c3975447c39be43ab4)
+        marker_22665c1277db400c8fe501b1ad0684f4.bindPopup(popup_223f0c87834c448bb87b460244905cb0)
         ;
 
         
     
     
-            var marker_5d798fa1d70247b09932dd05ba03c1d1 = L.marker(
+            var marker_3caad77df13241e4979a956c75784468 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_3bf57bdffeb44f298a29e2925043f713 = L.popup({"maxWidth": "100%"});
+        var popup_c0cfef8f1d2d4c619e644258db829cab = L.popup({"maxWidth": "100%"});
 
         
-            var html_66881bc317794de188d500783dbedd2b = $(`<div id="html_66881bc317794de188d500783dbedd2b" style="width: 100.0%; height: 100.0%;"><i>P.M.C.Health Camp Hospital</i></div>`)[0];
-            popup_3bf57bdffeb44f298a29e2925043f713.setContent(html_66881bc317794de188d500783dbedd2b);
+            var html_abe6ec089d654187ab832b3f9fd27f13 = $(`<div id="html_abe6ec089d654187ab832b3f9fd27f13" style="width: 100.0%; height: 100.0%;"><i>P.M.C.Health Camp Hospital</i></div>`)[0];
+            popup_c0cfef8f1d2d4c619e644258db829cab.setContent(html_abe6ec089d654187ab832b3f9fd27f13);
         
 
-        marker_5d798fa1d70247b09932dd05ba03c1d1.bindPopup(popup_3bf57bdffeb44f298a29e2925043f713)
+        marker_3caad77df13241e4979a956c75784468.bindPopup(popup_c0cfef8f1d2d4c619e644258db829cab)
         ;
 
         
     
     
-            var marker_162ad5791f50474bbb44bea5d681ec64 = L.marker(
+            var marker_a9cd3602c1f3414488ab0a2f65fe2cfd = L.marker(
                 [18.458361, 73.854403],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_dec0d5a646ed43968e9ec67501fdc7ea = L.popup({"maxWidth": "100%"});
+        var popup_5dfd4704f93748ccb2dcf1fa333d8eb5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_18d0dfc9253a4de58af8f280d33eadbd = $(`<div id="html_18d0dfc9253a4de58af8f280d33eadbd" style="width: 100.0%; height: 100.0%;"><i>Bharati Vidyapeeth MCH</i></div>`)[0];
-            popup_dec0d5a646ed43968e9ec67501fdc7ea.setContent(html_18d0dfc9253a4de58af8f280d33eadbd);
+            var html_12ff4e622e5f492d9a8185741777b003 = $(`<div id="html_12ff4e622e5f492d9a8185741777b003" style="width: 100.0%; height: 100.0%;"><i>Bharati Vidyapeeth MCH</i></div>`)[0];
+            popup_5dfd4704f93748ccb2dcf1fa333d8eb5.setContent(html_12ff4e622e5f492d9a8185741777b003);
         
 
-        marker_162ad5791f50474bbb44bea5d681ec64.bindPopup(popup_dec0d5a646ed43968e9ec67501fdc7ea)
+        marker_a9cd3602c1f3414488ab0a2f65fe2cfd.bindPopup(popup_5dfd4704f93748ccb2dcf1fa333d8eb5)
         ;
 
         
     
     
-            var marker_3a61e298e7ba48a39e73da0166f5ac38 = L.marker(
+            var marker_c7a3f0d4d4004c61a9c601000100321c = L.marker(
                 [18.5014287, 73.93439920000002],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_eb902ee144bb42e797ad82ea2ab3f5d8 = L.popup({"maxWidth": "100%"});
+        var popup_db7ddacc74704e7d997e0e23739f39a3 = L.popup({"maxWidth": "100%"});
 
         
-            var html_d302180210164b1e8f73b2f74e1269ac = $(`<div id="html_d302180210164b1e8f73b2f74e1269ac" style="width: 100.0%; height: 100.0%;"><i>Dharmadhikari Hospital</i></div>`)[0];
-            popup_eb902ee144bb42e797ad82ea2ab3f5d8.setContent(html_d302180210164b1e8f73b2f74e1269ac);
+            var html_276734e9539449cb96115b711d104d58 = $(`<div id="html_276734e9539449cb96115b711d104d58" style="width: 100.0%; height: 100.0%;"><i>Dharmadhikari Hospital</i></div>`)[0];
+            popup_db7ddacc74704e7d997e0e23739f39a3.setContent(html_276734e9539449cb96115b711d104d58);
         
 
-        marker_3a61e298e7ba48a39e73da0166f5ac38.bindPopup(popup_eb902ee144bb42e797ad82ea2ab3f5d8)
+        marker_c7a3f0d4d4004c61a9c601000100321c.bindPopup(popup_db7ddacc74704e7d997e0e23739f39a3)
         ;
 
         
     
     
-            var marker_75ff391b540a47e89b5087d7f8426ca5 = L.marker(
+            var marker_d350600998f14049b6739a08031a56a4 = L.marker(
                 [18.613682, 73.780397],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_672c988e732f40ca9b2b15ba5b327abe = L.popup({"maxWidth": "100%"});
+        var popup_4a03002ad53c4c2fa74afbe114b4c898 = L.popup({"maxWidth": "100%"});
 
         
-            var html_1a3e24f789ab47de8d2ed62283992c02 = $(`<div id="html_1a3e24f789ab47de8d2ed62283992c02" style="width: 100.0%; height: 100.0%;"><i>PCMC-Thergaon Hospital</i></div>`)[0];
-            popup_672c988e732f40ca9b2b15ba5b327abe.setContent(html_1a3e24f789ab47de8d2ed62283992c02);
+            var html_a2cbc291e3be4ef8b962fe5c6699e503 = $(`<div id="html_a2cbc291e3be4ef8b962fe5c6699e503" style="width: 100.0%; height: 100.0%;"><i>PCMC-Thergaon Hospital</i></div>`)[0];
+            popup_4a03002ad53c4c2fa74afbe114b4c898.setContent(html_a2cbc291e3be4ef8b962fe5c6699e503);
         
 
-        marker_75ff391b540a47e89b5087d7f8426ca5.bindPopup(popup_672c988e732f40ca9b2b15ba5b327abe)
+        marker_d350600998f14049b6739a08031a56a4.bindPopup(popup_4a03002ad53c4c2fa74afbe114b4c898)
         ;
 
         
     
     
-            var marker_fcb95b06f8bb4d3dbc8540c8a24923f1 = L.marker(
+            var marker_2c645ddacc0349ffb93e564ff0d3aad6 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_bcde88e8e6a04bb295b1db406f42f7fd = L.popup({"maxWidth": "100%"});
+        var popup_ecab39d567f54506ade6575b9b97f673 = L.popup({"maxWidth": "100%"});
 
         
-            var html_11e1f624c7df42eb86b34a83bc9f701e = $(`<div id="html_11e1f624c7df42eb86b34a83bc9f701e" style="width: 100.0%; height: 100.0%;"><i>B.J.Medical College</i></div>`)[0];
-            popup_bcde88e8e6a04bb295b1db406f42f7fd.setContent(html_11e1f624c7df42eb86b34a83bc9f701e);
+            var html_570b5bd8772d468b8353f8b0eb17d294 = $(`<div id="html_570b5bd8772d468b8353f8b0eb17d294" style="width: 100.0%; height: 100.0%;"><i>B.J.Medical College</i></div>`)[0];
+            popup_ecab39d567f54506ade6575b9b97f673.setContent(html_570b5bd8772d468b8353f8b0eb17d294);
         
 
-        marker_fcb95b06f8bb4d3dbc8540c8a24923f1.bindPopup(popup_bcde88e8e6a04bb295b1db406f42f7fd)
+        marker_2c645ddacc0349ffb93e564ff0d3aad6.bindPopup(popup_ecab39d567f54506ade6575b9b97f673)
         ;
 
         
     
     
-            var marker_dfb4a3e0d39b472db3235e92fa883ce6 = L.marker(
+            var marker_a5a73966a7de4ba4a26152bce3147e95 = L.marker(
                 [18.5109309, 73.832424],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_705a450b471249f593c3c9dbac945416 = L.popup({"maxWidth": "100%"});
+        var popup_9dc0bda86f85441e9a854b2e29d123cc = L.popup({"maxWidth": "100%"});
 
         
-            var html_74803416b690470db1e827285b31e510 = $(`<div id="html_74803416b690470db1e827285b31e510" style="width: 100.0%; height: 100.0%;"><i>PMC-Late. Tharkude Dawakhana, Erandwana Disp (UHP)</i></div>`)[0];
-            popup_705a450b471249f593c3c9dbac945416.setContent(html_74803416b690470db1e827285b31e510);
+            var html_5d23856cfe984ef69d08ff5cd05df6c1 = $(`<div id="html_5d23856cfe984ef69d08ff5cd05df6c1" style="width: 100.0%; height: 100.0%;"><i>PMC-Late. Tharkude Dawakhana, Erandwana Disp (UHP)</i></div>`)[0];
+            popup_9dc0bda86f85441e9a854b2e29d123cc.setContent(html_5d23856cfe984ef69d08ff5cd05df6c1);
         
 
-        marker_dfb4a3e0d39b472db3235e92fa883ce6.bindPopup(popup_705a450b471249f593c3c9dbac945416)
+        marker_a5a73966a7de4ba4a26152bce3147e95.bindPopup(popup_9dc0bda86f85441e9a854b2e29d123cc)
         ;
 
         
     
     
-            var marker_91136e0cd6404b599da0c483a7beead7 = L.marker(
+            var marker_04c8920e72244933a8e3896591372138 = L.marker(
                 [0.0, 0.0],
                 {}
-            ).addTo(map_104dd9bd5330412ba8eb128728be9486);
+            ).addTo(map_487535b85f224a9cbe401d8e0940b61c);
         
     
-        var popup_2ca3f969bfa344e780d47d89eeee231c = L.popup({"maxWidth": "100%"});
+        var popup_768a03ba7c8544429244a6f507bda09d = L.popup({"maxWidth": "100%"});
 
         
-            var html_0fa6dafce4aa4e0c8720d9e24b0576e1 = $(`<div id="html_0fa6dafce4aa4e0c8720d9e24b0576e1" style="width: 100.0%; height: 100.0%;"><i>PCMC Pimple Saudagar</i></div>`)[0];
-            popup_2ca3f969bfa344e780d47d89eeee231c.setContent(html_0fa6dafce4aa4e0c8720d9e24b0576e1);
+            var html_163632d80e4c493ba82e1293b883c805 = $(`<div id="html_163632d80e4c493ba82e1293b883c805" style="width: 100.0%; height: 100.0%;"><i>PCMC Pimple Saudagar</i></div>`)[0];
+            popup_768a03ba7c8544429244a6f507bda09d.setContent(html_163632d80e4c493ba82e1293b883c805);
         
 
-        marker_91136e0cd6404b599da0c483a7beead7.bindPopup(popup_2ca3f969bfa344e780d47d89eeee231c)
+        marker_04c8920e72244933a8e3896591372138.bindPopup(popup_768a03ba7c8544429244a6f507bda09d)
         ;
 
         

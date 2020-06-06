@@ -150,9 +150,14 @@ def sitemap():
 
 #Folium map generator
 def map():
+    lat1=[18.513837,18.515244,18.526261,18.464631,18.471557,18.499114,18.528794,18.561314, 18.530096, 18.506078,18.563773, ]
+    lon1=[73.853327, 73.866443, 73.876051, 73.851375,73.867064, 73.909837,73.843243,73.919346,73.927467,73.807320,73.810513]
+    names=["Kasba-Vishrambaug wada","Bhavani peth ward office","Pune station","Dhankawadi","Bibwewadi","Wanowrie-Hadapsar","Shivajinagar","Ahmednagar road-Wadgaonsheri","Hadapsar Mundhwa","Kothrud","Aundh-Baner"]
     start_coords = (18.5204, 73.8567)
     folium_map = folium.Map(location=start_coords, zoom_start=14)
     hnames,latitude,longitude= map_to_df()
+    for lat,lon,name in zip(lat1,lon1,names):
+        folium.CircleMarker([lat,lon],popup='<b>'+name+'</b>',color="red",radius=45,fill=True,fill_color="red").add_to(folium_map)
     for i in range(len(hnames)):
         folium.Marker([float(latitude[i]),float(longitude[i])],popup='<i>'+hnames[i]+'</i>').add_to(folium_map)
     folium_map.save('app/templates/pages/map_content.html')
